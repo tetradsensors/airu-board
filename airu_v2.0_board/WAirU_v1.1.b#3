@@ -49,8 +49,8 @@
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
@@ -208,8 +208,6 @@
 <hole x="37.837440625" y="47.899903125" drill="2.286"/>
 <text x="1.9471375" y="38.01153125" size="1.016" layer="21" font="vector">03-15-19</text>
 <wire x1="7.9375" y1="-12.7" x2="7.9375" y2="63.5" width="0.254" layer="48" style="longdash"/>
-<rectangle x1="0" y1="41.22854375" x2="12.19078125" y2="50.032996875" layer="39"/>
-<rectangle x1="0" y1="41.22854375" x2="12.19078125" y2="50.032996875" layer="40"/>
 </plain>
 <libraries>
 <library name="microbuilder">

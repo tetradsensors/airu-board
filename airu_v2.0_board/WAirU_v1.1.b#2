@@ -208,11 +208,6 @@
 <hole x="37.837440625" y="47.899903125" drill="2.286"/>
 <text x="1.9471375" y="38.01153125" size="1.016" layer="21" font="vector">03-15-19</text>
 <wire x1="7.9375" y1="-12.7" x2="7.9375" y2="63.5" width="0.254" layer="48" style="longdash"/>
-<rectangle x1="0" y1="41.22854375" x2="12.19078125" y2="50.032996875" layer="39"/>
-<rectangle x1="0" y1="41.22854375" x2="12.19078125" y2="50.032996875" layer="40"/>
-<rectangle x1="0" y1="41.22854375" x2="12.19078125" y2="50.03299375" layer="40"/>
-<rectangle x1="0" y1="41.22854375" x2="12.19078125" y2="50.032996875" layer="41"/>
-<rectangle x1="0" y1="41.22854375" x2="12.19078125" y2="50.032996875" layer="42"/>
 </plain>
 <libraries>
 <library name="microbuilder">
@@ -1352,12 +1347,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="2" pad="-"/>
 <contactref element="1" pad="-"/>
 <contactref element="3" pad="-"/>
-<polygon width="0.2032" layer="16">
-<vertex x="0" y="-0.761925"/>
-<vertex x="71.12" y="-0.761925"/>
-<vertex x="71.03534375" y="79.798290625"/>
-<vertex x="-0.08465625" y="79.798290625"/>
-</polygon>
 <contactref element="C19" pad="1"/>
 <contactref element="C20" pad="1"/>
 <contactref element="U4" pad="1"/>
@@ -1576,8 +1565,17 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="2.2857625" y1="48.250984375" x2="2.2857625" y2="46.815984375" width="0.254" layer="1"/>
 <wire x1="1.523846875" y1="46.477353125" x2="1.523846875" y2="40.297303125" width="0.254" layer="16"/>
 <via x="1.523846875" y="40.297303125" extent="1-16" drill="0.35"/>
+<polygon width="0.254" layer="16">
+<vertex x="0" y="0"/>
+<vertex x="0" y="41.567175"/>
+<vertex x="12.021465625" y="41.567175"/>
+<vertex x="12.021465625" y="50.032996875"/>
+<vertex x="40.297303125" y="50.032996875"/>
+<vertex x="40.297303125" y="0"/>
+</polygon>
 <wire x1="24.889509375" y1="36.995634375" x2="24.939640625" y2="36.891425" width="0" layer="19" extent="1-1"/>
 <wire x1="2.2857625" y1="46.815984375" x2="2.370428125" y2="46.477353125" width="0" layer="19" extent="1-16"/>
+<wire x1="3.80969375" y1="43.598978125" x2="2.370428125" y2="46.477353125" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="3.3V">
 <contactref element="U7" pad="2"/>
