@@ -3921,6 +3921,11 @@ Dont use them.</text>
 <wire x1="134.62" y1="142.24" x2="121.92" y2="142.24" width="0.1524" layer="91"/>
 <label x="119.38" y="142.24" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U7" gate="G$1" pin="IO33/A1_5/X32N"/>
+<wire x1="78.74" y1="68.58" x2="91.44" y2="68.58" width="0.1524" layer="91"/>
+<label x="81.28" y="68.58" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="PM_SET" class="0">
 <segment>
