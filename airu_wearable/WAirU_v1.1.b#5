@@ -365,6 +365,28 @@
 </package>
 </packages>
 </library>
+<library name="Molex_53261_0871_Connector">
+<packages>
+<package name="MOLEX-53261-0871">
+<smd name="NC@3" x="-6.975" y="-2.16" dx="2.2" dy="3.1" layer="1"/>
+<smd name="NC@4" x="6.975" y="-2.16" dx="2.2" dy="3.1" layer="1"/>
+<smd name="NC@1" x="-4.375" y="0.8" dx="0.8" dy="1.6" layer="1"/>
+<smd name="NC@2" x="-3.125" y="0.8" dx="0.8" dy="1.6" layer="1"/>
+<smd name="RESET" x="-1.875" y="0.8" dx="0.8" dy="1.6" layer="1"/>
+<smd name="TXD" x="-0.625" y="0.8" dx="0.8" dy="1.6" layer="1"/>
+<smd name="RXD" x="0.625" y="0.8" dx="0.8" dy="1.6" layer="1"/>
+<smd name="SET" x="1.875" y="0.8" dx="0.8" dy="1.6" layer="1"/>
+<smd name="GND" x="3.125" y="0.8" dx="0.8" dy="1.6" layer="1"/>
+<smd name="5V" x="4.375" y="0.8" dx="0.8" dy="1.6" layer="1"/>
+<wire x1="-5.8" y1="0" x2="5.8" y2="0" width="0.127" layer="21"/>
+<wire x1="5.8" y1="0" x2="5.8" y2="-4.1" width="0.127" layer="21"/>
+<wire x1="5.8" y1="-4.1" x2="-5.8" y2="-4.1" width="0.127" layer="21"/>
+<wire x1="-5.8" y1="-4.1" x2="-5.8" y2="0" width="0.127" layer="21"/>
+<text x="-9.05" y="-4.85" size="1.27" layer="25" rot="R90">&gt;Name</text>
+<text x="10.2" y="-5.1" size="1.27" layer="27" rot="R90">&gt;Value</text>
+</package>
+</packages>
+</library>
 <library name="Seeed-Resistor">
 <packages>
 <package name="R0603">
@@ -1103,6 +1125,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="5.3756" y="46.5621" size="0.6096" layer="25" ratio="11"/>
 <attribute name="VALUE" x="8.293003125" y="49.77486875" size="0.635" layer="27" ratio="10" rot="R180"/>
 </element>
+<element name="U1" library="Molex_53261_0871_Connector" package="MOLEX-53261-0871" value="MOLEX-53261-0871" x="4.23290625" y="18.455490625" smashed="yes" rot="R270">
+<attribute name="NAME" x="1.378996875" y="27.353025" size="0.6096" layer="25" rot="R180"/>
+<attribute name="SPICEPREFIX" value="X" x="4.23290625" y="18.455490625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="-0.86709375" y="8.255490625" size="1.27" layer="27"/>
+</element>
 <element name="R10" library="Seeed-Resistor" package="R0603" value="220R" x="17.9475375" y="26.9213" smashed="yes" rot="R270">
 <attribute name="MPN" value="RC0603JR-07220RL" x="31.323534375" y="31.5775" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="17.820359375" y="25.82084375" size="0.6096" layer="25" ratio="11"/>
@@ -1248,13 +1275,13 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="PRICE" value="None" x="38.096190625" y="13.12201875" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="36.190359375" y="9.945628125" size="1.270559375" layer="27"/>
 </element>
-<element name="5V" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="53261-08" value="53261-08" x="2.62440625" y="18.54015" smashed="yes" rot="R90">
-<attribute name="MF" value="MOLEX" x="2.62440625" y="18.54015" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="2.62440625" y="18.54015" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="-0.25059375" y="12.91515" size="1.27" layer="25" rot="R90"/>
-<attribute name="OC_FARNELL" value="1125376" x="2.62440625" y="18.54015" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="2.62440625" y="18.54015" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="3.12440625" y="15.29015" size="1.27" layer="27" rot="R90"/>
+<element name="5V" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="53261-08" value="53261-08" x="6.51868125" y="-25.312803125" smashed="yes">
+<attribute name="MF" value="MOLEX" x="6.51868125" y="-25.312803125" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="6.51868125" y="-25.312803125" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="0.89368125" y="-22.437803125" size="1.27" layer="25"/>
+<attribute name="OC_FARNELL" value="1125376" x="6.51868125" y="-25.312803125" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="6.51868125" y="-25.312803125" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="3.26868125" y="-25.812803125" size="1.27" layer="27"/>
 </element>
 </elements>
 <signals>
@@ -1279,6 +1306,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="U3" pad="2"/>
 <contactref element="U3" pad="7"/>
 <contactref element="C1" pad="1"/>
+<contactref element="U1" pad="GND"/>
 <contactref element="C2" pad="1"/>
 <contactref element="C6" pad="1"/>
 <contactref element="C8" pad="1"/>
@@ -1353,7 +1381,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="2.2857625" y1="48.250984375" x2="2.2857625" y2="46.815984375" width="0" layer="19" extent="1-1"/>
 <wire x1="5.787396875" y1="27.59858125" x2="3.80969375" y2="43.598978125" width="0" layer="19" extent="1-1"/>
 <wire x1="5.164153125" y1="25.8208375" x2="5.787396875" y2="27.59858125" width="0" layer="19" extent="1-1"/>
-<wire x1="5.164153125" y1="11.174815625" x2="5.164153125" y2="25.8208375" width="0" layer="19" extent="1-1"/>
+<wire x1="5.03290625" y1="15.330490625" x2="5.164153125" y2="25.8208375" width="0" layer="19" extent="1-1"/>
+<wire x1="5.164153125" y1="11.174815625" x2="5.03290625" y2="15.330490625" width="0" layer="19" extent="1-1"/>
 <wire x1="3.128440625" y1="9.34" x2="5.164153125" y2="11.174815625" width="0" layer="19" extent="1-1"/>
 <wire x1="2.620440625" y1="9.34" x2="3.128440625" y2="9.34" width="0" layer="19" extent="1-1"/>
 <wire x1="2.112440625" y1="9.34" x2="2.620440625" y2="9.34" width="0" layer="19" extent="1-1"/>
@@ -1365,7 +1394,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="5.375840625" y1="8.14" x2="3.128440625" y2="9.34" width="0" layer="19" extent="1-1"/>
 <wire x1="5.375840625" y1="3.29" x2="3.128440625" y2="2.09" width="0" layer="19" extent="1-1"/>
 <wire x1="5.520840625" y1="4.415" x2="5.375840625" y2="3.29" width="0" layer="19" extent="1-1"/>
-<wire x1="5.12440625" y1="15.41515" x2="2.620440625" y2="2.09" width="0" layer="19" extent="1-1"/>
+<wire x1="3.39368125" y1="-27.812803125" x2="2.620440625" y2="2.09" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="3.3V">
 <contactref element="U7" pad="2"/>
@@ -1418,18 +1447,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="RTS">
 <contactref element="R1" pad="1"/>
 <contactref element="Q3" pad="2"/>
-<contactref element="U7" pad="36"/>
-<contactref element="5V" pad="1"/>
-<wire x1="13.377615625" y1="15.960234375" x2="30.099640625" y2="28.731425" width="0" layer="19" extent="1-1"/>
 <wire x1="10.949828125" y1="16.16779375" x2="13.377615625" y2="15.960234375" width="0" layer="19" extent="1-1"/>
-<wire x1="5.12440625" y1="22.91515" x2="13.377615625" y2="15.960234375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DTR">
 <contactref element="R3" pad="1"/>
 <contactref element="Q2" pad="2"/>
-<contactref element="5V" pad="2"/>
 <wire x1="9.395690625" y1="18.157084375" x2="13.57946875" y2="19.64306875" width="0" layer="19" extent="1-1"/>
-<wire x1="5.12440625" y1="21.66515" x2="9.395690625" y2="18.157084375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$13">
 <contactref element="R1" pad="2"/>
@@ -1458,6 +1481,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="5.0V">
 <contactref element="C6" pad="2"/>
 <contactref element="C2" pad="2"/>
+<contactref element="U1" pad="5V"/>
 <contactref element="D8" pad="2"/>
 <contactref element="D7" pad="2"/>
 <contactref element="L3" pad="2"/>
@@ -1465,8 +1489,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="19.4713875" y1="14.402090625" x2="22.434434375" y2="17.195815625" width="0" layer="19" extent="1-1"/>
 <wire x1="17.016303125" y1="13.9263625" x2="19.4713875" y2="14.402090625" width="0" layer="19" extent="1-1"/>
 <wire x1="5.164153125" y1="12.698815625" x2="17.016303125" y2="13.9263625" width="0" layer="19" extent="1-1"/>
-<wire x1="5.164153125" y1="24.2968375" x2="5.164153125" y2="12.698815625" width="0" layer="19" extent="1-1"/>
-<wire x1="5.12440625" y1="14.16515" x2="5.164153125" y2="12.698815625" width="0" layer="19" extent="1-1"/>
+<wire x1="5.03290625" y1="14.080490625" x2="5.164153125" y2="12.698815625" width="0" layer="19" extent="1-1"/>
+<wire x1="5.164153125" y1="24.2968375" x2="5.03290625" y2="14.080490625" width="0" layer="19" extent="1-1"/>
+<wire x1="2.14368125" y1="-27.812803125" x2="5.164153125" y2="12.698815625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="U2RXD">
 <contactref element="U7" pad="27"/>
@@ -1528,12 +1553,16 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="13.377615625" y1="17.738234375" x2="14.9952625" y2="19.64306875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PM_RESET">
+<contactref element="U1" pad="RESET"/>
 <contactref element="5V" pad="3"/>
+<wire x1="8.39368125" y1="-27.812803125" x2="5.03290625" y2="20.330490625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PM_SET">
 <contactref element="U7" pad="29"/>
+<contactref element="U1" pad="SET"/>
 <contactref element="5V" pad="6"/>
-<wire x1="5.12440625" y1="16.66515" x2="21.209640625" y2="28.731425" width="0" layer="19" extent="1-1"/>
+<wire x1="5.03290625" y1="16.580490625" x2="21.209640625" y2="28.731425" width="0" layer="19" extent="1-1"/>
+<wire x1="4.64368125" y1="-27.812803125" x2="5.03290625" y2="16.580490625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VBAT">
 <contactref element="L1" pad="1"/>
@@ -1559,8 +1588,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </signal>
 <signal name="TXD">
 <contactref element="R10" pad="2"/>
+<contactref element="U1" pad="TXD"/>
 <contactref element="5V" pad="4"/>
-<wire x1="5.12440625" y1="19.16515" x2="17.239640625" y2="26.9213" width="0" layer="19" extent="1-1"/>
+<wire x1="5.03290625" y1="19.080490625" x2="17.239640625" y2="26.9213" width="0" layer="19" extent="1-1"/>
+<wire x1="7.14368125" y1="-27.812803125" x2="5.03290625" y2="19.080490625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="L1" pad="2"/>
@@ -1630,8 +1661,19 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="Q4" pad="2"/>
 <wire x1="23.723059375" y1="8.889665625" x2="28.95310625" y2="12.925421875" width="0" layer="19" extent="1-1"/>
 </signal>
+<signal name="U0RTS">
+<contactref element="U7" pad="36"/>
+</signal>
 <signal name="RXD">
 <contactref element="5V" pad="5"/>
+<contactref element="U1" pad="RXD"/>
+<wire x1="5.03290625" y1="17.830490625" x2="5.89368125" y2="-27.812803125" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$15">
+<contactref element="5V" pad="2"/>
+</signal>
+<signal name="N$16">
+<contactref element="5V" pad="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
