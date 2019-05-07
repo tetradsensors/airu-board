@@ -200,6 +200,9 @@
 <hole x="13.45588125" y="46.63003125" drill="5.207"/>
 <dimension x1="7.977759375" y1="-1.5661625" x2="7.957871875" y2="24.296903125" x3="-0.07555625" y3="11.359184375" textsize="1.778" layer="1" dtype="diameter"/>
 <dimension x1="51.36319375" y1="-1.5661625" x2="51.30286875" y2="50.032996875" x3="58.104690625" y3="24.241334375" textsize="1.778" layer="1" dtype="diameter"/>
+<dimension x1="7.957871875" y1="-1.523846875" x2="48.673696875" y2="1.845840625" x3="28.315784375" y3="-5.75675625" textsize="1.778" layer="1" dtype="horizontal"/>
+<dimension x1="7.957871875" y1="-1.60850625" x2="13.62519375" y2="1.845846875" x3="10.79153125" y3="-4.06359375" textsize="1.778" layer="1" dtype="horizontal"/>
+<dimension x1="7.957871875" y1="50.032996875" x2="13.45588125" y2="46.63003125" x3="10.706875" y3="50.9642375" textsize="1.778" layer="1" dtype="horizontal"/>
 </plain>
 <libraries>
 <library name="microbuilder">
@@ -955,8 +958,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="C3" library="Seeed-Capacitor" package="C0603" value="1uf" x="11.30109375" y="7.306715625" smashed="yes" rot="R270">
 <attribute name="MPN" value="CC0603KRX7R8BB105" x="11.30109375" y="7.306715625" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="12.57109375" y="7.560715625" size="0.635" layer="33" ratio="10" rot="R180"/>
 <attribute name="NAME" x="9.88719375" y="6.4445125" size="0.6096" layer="25" ratio="11" rot="R270"/>
+<attribute name="NAME" x="12.57109375" y="7.560715625" size="0.635" layer="33" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="12.57109375" y="8.894215625" size="0.635" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="Q2" library="Seeed-Transistor" package="SOT-23" value="MMBT3904LT1G" x="14.136646875" y="18.368821875" smashed="yes" rot="R270">
@@ -1003,26 +1006,26 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="C4" library="Seeed-Capacitor" package="C0603" value="1uf" x="33.947921875" y="1.947153125" smashed="yes" rot="R90">
 <attribute name="MPN" value="CC0603KRX7R8BB105" x="6.095371875" y="-17.52423125" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="32.677921875" y="1.693153125" size="0.635" layer="33" ratio="10"/>
 <attribute name="NAME" x="35.5988375" y="2.455228125" size="0.6096" layer="25" ratio="11" rot="R270"/>
+<attribute name="NAME" x="32.677921875" y="1.693153125" size="0.635" layer="33" ratio="10"/>
 <attribute name="VALUE" x="32.677921875" y="0.359653125" size="0.635" layer="27" ratio="10"/>
 </element>
 <element name="C19" library="Seeed-Capacitor" package="C0603" value="10uf" x="49.948325" y="17.862884375" smashed="yes" rot="R180">
 <attribute name="MPN" value="CC0603KRX5R6BB106" x="58.583459375" y="-14.56120625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="50.4563" y="18.201390625" size="0.635" layer="33" ratio="10" rot="R90"/>
 <attribute name="NAME" x="52.10701875" y="17.86275625" size="0.6096" layer="25" ratio="11" rot="R90"/>
+<attribute name="NAME" x="50.4563" y="18.201390625" size="0.635" layer="33" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="51.53583125" y="17.100834375" size="0.635" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="C20" library="Seeed-Capacitor" package="C0603" value="10uf" x="21.5878375" y="0.169321875" smashed="yes" rot="R90">
 <attribute name="MPN" value="CC0603KRX5R6BB106" x="-10.836253125" y="-17.10095" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="24.38143125" y="1.269853125" size="0.635" layer="33" ratio="10"/>
 <attribute name="NAME" x="19.8948" y="2.1587" size="0.6096" layer="25" ratio="11" rot="R180"/>
+<attribute name="NAME" x="24.38143125" y="1.269853125" size="0.635" layer="33" ratio="10"/>
 <attribute name="VALUE" x="24.38143125" y="-0.063646875" size="0.635" layer="27" ratio="10"/>
 </element>
 <element name="C21" library="Seeed-Capacitor" package="C0603" value="10uf" x="19.979328125" y="36.995634375" smashed="yes" rot="R180">
 <attribute name="MPN" value="CC0603KRX5R6BB106" x="45.8847375" y="4.57154375" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="20.233328125" y="35.725634375" size="0.635" layer="33" ratio="10" rot="R90"/>
 <attribute name="NAME" x="19.090328125" y="35.55631875" size="0.6096" layer="25" ratio="11" rot="R90"/>
+<attribute name="NAME" x="20.233328125" y="35.725634375" size="0.635" layer="33" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="21.566828125" y="35.725634375" size="0.635" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="U4" library="Seeed-IC" package="SOT-223" value="CJT1117-3.3-SOT223" x="13.37598125" y="36.572340625" smashed="yes" rot="R90">
@@ -1032,8 +1035,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="C24" library="Seeed-Capacitor" package="C0603" value="10uf" x="19.979334375" y="40.38195625" smashed="yes" rot="R180">
 <attribute name="MPN" value="CC0603KRX5R6BB106" x="54.51988125" y="19.47138125" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="20.233334375" y="39.11195625" size="0.635" layer="33" ratio="10" rot="R90"/>
 <attribute name="NAME" x="20.86834375" y="41.821290625" size="0.6096" layer="25" ratio="11" rot="R270"/>
+<attribute name="NAME" x="20.233334375" y="39.11195625" size="0.635" layer="33" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="21.566834375" y="39.11195625" size="0.635" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="R5" library="Seeed-Resistor" package="R0603" value="220R" x="21.587846875" y="3.809625" smashed="yes" rot="R270">
@@ -1078,8 +1081,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="C1" library="Seeed-Capacitor" package="C0603" value="1uf" x="21.58784375" y="1.947140625" smashed="yes" rot="R270">
 <attribute name="MPN" value="CC0603KRX7R8BB105" x="40.3819625" y="12.69873125" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="22.85784375" y="2.201140625" size="0.635" layer="33" ratio="10" rot="R180"/>
 <attribute name="NAME" x="19.81015" y="0.380871875" size="0.6096" layer="25" ratio="11" rot="R180"/>
+<attribute name="NAME" x="22.85784375" y="2.201140625" size="0.635" layer="33" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="22.85784375" y="3.365325" size="0.635" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="R7" library="Seeed-Resistor" package="R0603" value="4.7K" x="25.566796875" y="0.16931875" smashed="yes" rot="R90">
@@ -1099,14 +1102,14 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="C2" library="Seeed-Capacitor" package="C0603" value="100nf" x="28.5298125" y="21.164559375" smashed="yes" rot="R180">
 <attribute name="MPN" value="CC0603KRX7R9BB104" x="41.990465625" y="6.772665625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="28.7838125" y="19.894559375" size="0.635" layer="33" ratio="10" rot="R90"/>
 <attribute name="NAME" x="28.74136875" y="18.624684375" size="0.6096" layer="25" ratio="11" rot="R90"/>
+<attribute name="NAME" x="28.7838125" y="19.894559375" size="0.635" layer="33" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="30.1173125" y="19.894559375" size="0.635" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="C6" library="Seeed-Capacitor" package="C0603" value="1uf" x="39.620040625" y="17.5242625" smashed="yes" rot="R90">
 <attribute name="MPN" value="CC0603KRX7R8BB105" x="25.228146875" y="-4.571528125" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="38.350040625" y="17.2702625" size="0.635" layer="33" ratio="10"/>
 <attribute name="NAME" x="37.08016875" y="17.735996875" size="0.6096" layer="25" ratio="11"/>
+<attribute name="NAME" x="38.350040625" y="17.2702625" size="0.635" layer="33" ratio="10"/>
 <attribute name="VALUE" x="38.350040625" y="15.9367625" size="0.635" layer="27" ratio="10"/>
 </element>
 <element name="L1" library="OPL_Inductor" package="L0805" value="2.2UH-1.2A" x="47.83188125" y="20.995228125" smashed="yes">
@@ -1120,20 +1123,20 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="C8" library="OPL_Capacitor" package="C0603" value="10uf" x="49.948346875" y="14.81518125" smashed="yes">
 <attribute name="MPN" value="CC0603KRX5R6BB106" x="49.948346875" y="14.81518125" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="50.03298125" y="15.83120625" size="0.635" layer="33" ratio="10" rot="R270"/>
 <attribute name="NAME" x="52.02236875" y="14.984375" size="0.6096" layer="25" ratio="11" rot="R90"/>
+<attribute name="NAME" x="50.03298125" y="15.83120625" size="0.635" layer="33" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="50.39264375" y="15.06928125" size="0.635" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="C7" library="OPL_Capacitor" package="C0603" value="22uf" x="45.20748125" y="14.8151875" smashed="yes">
 <attribute name="MPN" value="CC0603KRX5R6BB106" x="45.20748125" y="14.8151875" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="44.95348125" y="16.0851875" size="0.635" layer="33" ratio="10" rot="R270"/>
 <attribute name="NAME" x="45.84233125" y="16.3389125" size="0.6096" layer="25" ratio="11" rot="R90"/>
+<attribute name="NAME" x="44.95348125" y="16.0851875" size="0.635" layer="33" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="43.789296875" y="15.8312125" size="0.635" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="C9" library="OPL_Capacitor" package="C0603" value="22uf" x="47.5779125" y="14.053259375" smashed="yes" rot="R270">
 <attribute name="MPN" value="CC0603KRX5R6BB106" x="47.5779125" y="14.053259375" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="48.8479125" y="14.307259375" size="0.635" layer="33" ratio="10" rot="R180"/>
 <attribute name="NAME" x="49.60958125" y="16.296796875" size="0.6096" layer="25" ratio="11"/>
+<attribute name="NAME" x="48.8479125" y="14.307259375" size="0.635" layer="33" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="48.25530625" y="13.524303125" size="0.635" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="R20" library="OPL_Resistor" package="R0603" value="750K" x="47.5779125" y="15.5771125" smashed="yes" rot="R270">
@@ -1153,8 +1156,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="C10" library="OPL_Capacitor" package="C0603" value="22uf" x="28.275834375" y="7.788559375" smashed="yes">
 <attribute name="MPN" value="CC0603KRX5R6BB106" x="28.275834375" y="7.788559375" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="28.021834375" y="9.058559375" size="0.635" layer="33" ratio="10" rot="R270"/>
 <attribute name="NAME" x="27.59844375" y="5.6298625" size="0.6096" layer="25" ratio="11"/>
+<attribute name="NAME" x="28.021834375" y="9.058559375" size="0.635" layer="33" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="26.688334375" y="9.058559375" size="0.635" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="5" library="Seeed-LED" package="LED-0603" value="GREEN-0603" x="33.355328125" y="7.534575" smashed="yes" rot="R270">
@@ -1169,8 +1172,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="C11" library="OPL_Capacitor" package="C0603" value="4.7uf" x="28.021871875" y="12.529415625" smashed="yes">
 <attribute name="MPN" value="CC0603KRX5R6BB475" x="28.021871875" y="12.529415625" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="27.767871875" y="13.799415625" size="0.635" layer="33" ratio="10" rot="R270"/>
 <attribute name="NAME" x="27.344471875" y="10.370734375" size="0.6096" layer="25" ratio="11"/>
+<attribute name="NAME" x="27.767871875" y="13.799415625" size="0.635" layer="33" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="26.434371875" y="13.799415625" size="0.635" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="R23" library="Seeed-Resistor" package="R0603" value="330R" x="29.968996875" y="7.78856875" smashed="yes" rot="R180">
@@ -1841,16 +1844,16 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </signal>
 <signal name="PM_RESET">
 <contactref element="MOLEX-53261-0871" pad="3"/>
+<contactref element="U7" pad="9"/>
+<wire x1="22.5259625" y1="32.15608125" x2="45.501190625" y2="35.374609375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PM_SET">
-<contactref element="U7" pad="29"/>
 <contactref element="MOLEX-53261-0871" pad="6"/>
 <contactref element="U7" pad="34"/>
 <wire x1="40.64" y1="31.115" x2="39.6875" y2="31.115" width="0.1524" layer="1"/>
 <wire x1="40.64" y1="36.5125" x2="40.64" y2="31.115" width="0.1524" layer="1"/>
 <wire x1="39.6875" y1="37.465" x2="40.3225" y2="36.83" width="0.1524" layer="1"/>
 <wire x1="40.3225" y1="36.83" x2="40.64" y2="36.5125" width="0.1524" layer="1"/>
-<wire x1="39.6875" y1="31.115" x2="39.5259625" y2="30.88608125" width="0.1524" layer="1"/>
 <wire x1="39.6875" y1="37.465" x2="39.5259625" y2="37.23608125" width="0.1524" layer="1"/>
 <wire x1="42.545" y1="39.0525" x2="45.4025" y2="39.0525" width="0.1524" layer="1"/>
 <wire x1="40.64" y1="37.1475" x2="42.545" y2="39.0525" width="0.1524" layer="16"/>
@@ -1858,6 +1861,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="45.4025" y1="39.0525" x2="45.501190625" y2="39.124609375" width="0.1524" layer="1"/>
 <via x="42.545" y="39.0525" extent="1-16" drill="0.254"/>
 <via x="40.64" y="37.1475" extent="1-16" drill="0.254"/>
+<contactref element="U7" pad="26"/>
+<wire x1="39.5259625" y1="27.07608125" x2="39.6875" y2="31.115" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VBAT">
 <contactref element="L1" pad="1"/>

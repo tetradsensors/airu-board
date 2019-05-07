@@ -3921,13 +3921,13 @@ Dont use them.</text>
 <wire x1="134.62" y1="142.24" x2="121.92" y2="142.24" width="0.1524" layer="91"/>
 <label x="119.38" y="142.24" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U7" gate="G$1" pin="IO12/A2_5"/>
+<wire x1="78.74" y1="106.68" x2="91.44" y2="106.68" width="0.1524" layer="91"/>
+<label x="81.28" y="106.68" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="PM_SET" class="0">
-<segment>
-<pinref part="U7" gate="G$1" pin="IO5"/>
-<wire x1="78.74" y1="109.22" x2="91.44" y2="109.22" width="0.1524" layer="91"/>
-<label x="81.28" y="109.22" size="1.778" layer="95"/>
-</segment>
 <segment>
 <wire x1="121.92" y1="149.86" x2="134.62" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="MOLEX-53261-0871" gate="-6" pin="S"/>
@@ -3937,6 +3937,11 @@ Dont use them.</text>
 <wire x1="27.94" y1="68.58" x2="10.16" y2="68.58" width="0.1524" layer="91"/>
 <label x="10.16" y="68.58" size="1.778" layer="95"/>
 <pinref part="U7" gate="G$1" pin="RXD0"/>
+</segment>
+<segment>
+<pinref part="U7" gate="G$1" pin="IO4/A2_0"/>
+<wire x1="78.74" y1="111.76" x2="83.82" y2="111.76" width="0.1524" layer="91"/>
+<label x="81.28" y="111.76" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="5.0V" class="0">
