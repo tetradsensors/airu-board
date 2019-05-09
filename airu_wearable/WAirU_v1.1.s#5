@@ -4563,7 +4563,7 @@ part number 2062-2P from STA</description>
 <part name="Q6" library="BSS84" deviceset="BSS84" device=""/>
 <part name="MOLEX-53261-0871" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="53?-08" device="261"/>
 <part name="S1" library="switch-tact" deviceset="DTSM-6" device=""/>
-<part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="-JST-2MM-SMT" package3d_urn="urn:adsk.eagle:package:38042/1"/>
+<part name="VBAT" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="-JST-2MM-SMT" package3d_urn="urn:adsk.eagle:package:38042/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -5266,7 +5266,7 @@ Dont use them.</text>
 <attribute name="NAME" x="40.64283125" y="68.58" size="1.77998125" layer="95"/>
 <attribute name="VALUE" x="40.642590625" y="66.037409375" size="1.779809375" layer="96"/>
 </instance>
-<instance part="J1" gate="G$1" x="228.6" y="99.06" smashed="yes" rot="MR0">
+<instance part="VBAT" gate="G$1" x="228.6" y="99.06" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="231.14" y="94.234" size="1.778" layer="96" font="vector" rot="MR0"/>
 <attribute name="NAME" x="231.14" y="104.648" size="1.778" layer="95" font="vector" rot="MR0"/>
 </instance>
@@ -5340,7 +5340,7 @@ Dont use them.</text>
 <wire x1="213.36" y1="101.6" x2="213.36" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="93.98" x2="208.28" y2="93.98" width="0.1524" layer="91"/>
 <junction x="208.28" y="93.98"/>
-<pinref part="J1" gate="G$1" pin="2"/>
+<pinref part="VBAT" gate="G$1" pin="2"/>
 <wire x1="220.98" y1="101.6" x2="213.36" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -5467,7 +5467,7 @@ Dont use them.</text>
 <wire x1="233.68" y1="106.68" x2="233.68" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="93.98" x2="218.44" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="93.98" x2="218.44" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="1"/>
+<pinref part="VBAT" gate="G$1" pin="1"/>
 <wire x1="218.44" y1="99.06" x2="220.98" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
