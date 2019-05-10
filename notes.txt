@@ -1,0 +1,5 @@
+May 10, 2019
+-------------
+
+- V_IN for 5V and 3.3V buck/boost are now connected, so even USB power goes through the 5V boost. Hope this is okay.
+- Replaced all LEDs with an RGB LED from the SS OPL
