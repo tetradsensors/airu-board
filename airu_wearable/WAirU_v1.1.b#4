@@ -1348,9 +1348,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="36.7456375" y1="8.86343125" x2="36.7456375" y2="9.2537625" width="0.1524" layer="1"/>
 <wire x1="36.7456375" y1="9.2537625" x2="36.2204" y2="9.779" width="0.1524" layer="1"/>
 <wire x1="9.27170625" y1="6.6573875" x2="9.458171875" y2="6.843853125" width="0.1524" layer="1"/>
-<wire x1="21.145884375" y1="1.797278125" x2="21.145884375" y2="2.401446875" width="0.1524" layer="1"/>
-<wire x1="21.145884375" y1="2.401446875" x2="21.2852" y2="2.5407625" width="0.1524" layer="1"/>
-<wire x1="21.2852" y1="2.5407625" x2="21.2852" y2="3.438403125" width="0.1524" layer="1"/>
 <wire x1="49.844184375" y1="17.118665625" x2="49.844184375" y2="17.235734375" width="0.1524" layer="1"/>
 <wire x1="49.844184375" y1="17.495475" x2="49.844184375" y2="17.235734375" width="0.1524" layer="1"/>
 <wire x1="49.90516875" y1="17.057684375" x2="49.844184375" y2="17.118665625" width="0.1524" layer="1"/>
@@ -1414,6 +1411,40 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="32.2756125" y1="14.72844375" x2="33.35155" y2="13.65250625" width="0.1524" layer="1"/>
 <wire x1="33.35155" y1="13.65250625" x2="34.66249375" y2="13.65250625" width="0.1524" layer="1"/>
 <wire x1="32.369759375" y1="1.7754625" x2="31.610190625" y2="1.01589375" width="0.1524" layer="1"/>
+<wire x1="42.529759375" y1="42.275" x2="45.628190625" y2="40.374609375" width="0" layer="19" extent="1-1"/>
+<wire x1="39.5259625" y1="42.31608125" x2="42.529759375" y2="42.275" width="0" layer="19" extent="1-1"/>
+<wire x1="42.522140625" y1="30.198821875" x2="45.628190625" y2="40.374609375" width="0" layer="19" extent="1-1"/>
+<wire x1="45.998334375" y1="24.29689375" x2="42.522140625" y2="30.198821875" width="0" layer="19" extent="1-1"/>
+<wire x1="49.948334375" y1="26.24689375" x2="45.998334375" y2="24.29689375" width="0" layer="19" extent="1-1"/>
+<wire x1="48.285796875" y1="18.794121875" x2="45.998334375" y2="24.29689375" width="0" layer="19" extent="1-1"/>
+<wire x1="38.7604" y1="9.017" x2="38.791625" y2="9.7129625" width="0" layer="19" extent="1-1"/>
+<wire x1="37.7456375" y1="8.86343125" x2="38.7604" y2="9.017" width="0" layer="19" extent="1-1"/>
+<wire x1="36.7456375" y1="8.86343125" x2="37.7456375" y2="8.86343125" width="0" layer="19" extent="1-1"/>
+<wire x1="36.9956375" y1="7.44993125" x2="36.7456375" y2="8.86343125" width="0" layer="19" extent="1-1"/>
+<wire x1="46.815909375" y1="17.1009625" x2="48.285796875" y2="18.794121875" width="0" layer="19" extent="1-1"/>
+<wire x1="35.697159375" y1="12.95400625" x2="38.61308125" y2="12.50875625" width="0" layer="19" extent="1-1"/>
+<wire x1="31.1206125" y1="18.482321875" x2="31.0862375" y2="14.72844375" width="0" layer="19" extent="1-1"/>
+<wire x1="35.9918" y1="2.0574" x2="36.9956375" y2="7.44993125" width="0" layer="19" extent="1-16"/>
+<wire x1="22.3266" y1="11.4808" x2="28.021871875" y2="13.291415625" width="0" layer="19" extent="1-1"/>
+<wire x1="25.3259625" y1="24.41608125" x2="29.64941875" y2="20.002496875" width="0" layer="19" extent="1-1"/>
+<wire x1="21.145884375" y1="1.797278125" x2="29.715025" y2="1.01589375" width="0" layer="19" extent="1-1"/>
+<wire x1="31.3659625" y1="34.61608125" x2="39.5259625" y2="42.31608125" width="0" layer="19" extent="1-1"/>
+<wire x1="20.9804" y1="37.23470625" x2="31.3659625" y2="34.61608125" width="0" layer="19" extent="1-1"/>
+<wire x1="10.90421875" y1="33.12198125" x2="18.112434375" y2="36.218896875" width="0" layer="19" extent="1-1"/>
+<wire x1="10.320390625" y1="30.7814" x2="10.90421875" y2="33.12198125" width="0" layer="19" extent="1-1"/>
+<wire x1="10.155075" y1="27.9648" x2="10.320390625" y2="30.7814" width="0" layer="19" extent="1-1"/>
+<wire x1="9.647075" y1="27.9648" x2="10.155075" y2="27.9648" width="0" layer="19" extent="1-1"/>
+<wire x1="9.139075" y1="27.9648" x2="9.647075" y2="27.9648" width="0" layer="19" extent="1-1"/>
+<wire x1="9.672475" y1="25.5398" x2="9.647075" y2="27.9648" width="0" layer="19" extent="1-1"/>
+<wire x1="9.672475" y1="23.1398" x2="9.672475" y2="25.5398" width="0" layer="19" extent="1-1"/>
+<wire x1="9.647075" y1="20.7148" x2="9.672475" y2="23.1398" width="0" layer="19" extent="1-1"/>
+<wire x1="9.139075" y1="20.7148" x2="9.647075" y2="20.7148" width="0" layer="19" extent="1-1"/>
+<wire x1="10.155075" y1="20.7148" x2="9.647075" y2="20.7148" width="0" layer="19" extent="1-1"/>
+<wire x1="12.402475" y1="26.7648" x2="10.155075" y2="27.9648" width="0" layer="19" extent="1-1"/>
+<wire x1="12.402475" y1="21.9148" x2="10.155075" y2="20.7148" width="0" layer="19" extent="1-1"/>
+<wire x1="12.547475" y1="23.0398" x2="12.402475" y2="21.9148" width="0" layer="19" extent="1-1"/>
+<wire x1="9.458171875" y1="11.279653125" x2="9.647075" y2="20.7148" width="0" layer="19" extent="1-1"/>
+<wire x1="9.458171875" y1="6.843853125" x2="9.458171875" y2="11.279653125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="3.3V">
 <contactref element="U7" pad="2"/>
@@ -1897,6 +1928,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </signal>
 <signal name="N$1">
 <via x="21.600159375" y="5.8293" extent="1-16" drill="0.35" diameter="0.6"/>
+<via x="21.521421875" y="4.973321875" extent="1-16" drill="0.35" diameter="0.6"/>
+<via x="21.521421875" y="4.10464375" extent="1-16" drill="0.35" diameter="0.6"/>
+<via x="21.521421875" y="3.271521875" extent="1-16" drill="0.35" diameter="0.6"/>
+<via x="21.475703125" y="0.655321875" extent="1-16" drill="0.35" diameter="0.6"/>
+<via x="21.475703125" y="-0.187959375" extent="1-16" drill="0.35" diameter="0.6"/>
 </signal>
 <signal name="N$69">
 <via x="22.326584375" y="1.440178125" extent="1-16" drill="0.35" diameter="0.55"/>
@@ -1934,12 +1970,14 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="N$18">
 <via x="24.0157" y="6.494778125" extent="1-16" drill="0.35" diameter="0.55"/>
 </signal>
+<signal name="N$75">
+<via x="22.31898125" y="-0.2032" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$76">
+<via x="23.124159375" y="0.62738125" extent="1-16" drill="0.35"/>
+</signal>
 <signal name="N$20">
 <via x="23.1394" y="-0.21081875" extent="1-16" drill="0.35"/>
-<via x="23.124159375" y="0.62738125" extent="1-16" drill="0.35"/>
-<via x="22.31898125" y="-0.2032" extent="1-16" drill="0.35"/>
-<wire x1="23.124159375" y1="0.62738125" x2="23.1394" y2="-0.21081875" width="0" layer="19" extent="1-1"/>
-<wire x1="22.31898125" y1="-0.2032" x2="23.1394" y2="-0.21081875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$22">
 <via x="27.033221875" y="3.418834375" extent="1-16" drill="0.4"/>
@@ -1960,13 +1998,13 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="32.001459375" y="3.444240625" extent="1-16" drill="0.4"/>
 </signal>
 <signal name="N$29">
-<via x="32.903159375" y="3.4417" extent="1-16" drill="0.4"/>
+<via x="32.898078125" y="3.4417" extent="1-16" drill="0.4"/>
 </signal>
 <signal name="N$30">
-<via x="33.87598125" y="3.444240625" extent="1-16" drill="0.4"/>
+<via x="33.827721875" y="3.444240625" extent="1-16" drill="0.4"/>
 </signal>
 <signal name="N$31">
-<via x="34.810696875" y="3.4391625" extent="1-16" drill="0.4"/>
+<via x="34.747196875" y="3.444240625" extent="1-16" drill="0.4"/>
 </signal>
 <signal name="N$32">
 <via x="36.41598125" y="-0.64261875" extent="1-16" drill="0.4"/>
@@ -1990,42 +2028,46 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="36.497253125" y="3.594103125" extent="1-16" drill="0.4"/>
 </signal>
 <signal name="N$38">
-<via x="34.79545625" y="4.434834375" extent="1-16" drill="0.4" diameter="0.6"/>
+<via x="34.724334375" y="4.284971875" extent="1-16" drill="0.4" diameter="0.6"/>
 </signal>
 <signal name="N$39">
-<via x="33.80994375" y="4.434840625" extent="1-16" drill="0.4"/>
+<via x="33.820103125" y="4.282440625" extent="1-16" drill="0.4"/>
 </signal>
 <signal name="N$40">
-<via x="32.89045625" y="4.439915625" extent="1-16" drill="0.4"/>
+<via x="32.915853125" y="4.287515625" extent="1-16" drill="0.4"/>
 </signal>
 <signal name="N$41">
-<via x="31.986215625" y="4.43484375" extent="1-16" drill="0.4"/>
+<via x="32.016696875" y="4.2900625" extent="1-16" drill="0.4"/>
 </signal>
 <signal name="N$42">
-<via x="31.08451875" y="4.4348375" extent="1-16" drill="0.4" diameter="0.65"/>
+<via x="31.104840625" y="4.29005625" extent="1-16" drill="0.4" diameter="0.65"/>
 </signal>
 <signal name="N$70">
 <via x="27.80791875" y="5.2197" extent="1-16" drill="0.4" diameter="0.65"/>
 </signal>
 <signal name="N$43">
-<via x="30.17011875" y="4.434840625" extent="1-16" drill="0.4" diameter="0.65"/>
+<via x="30.256475" y="4.30021875" extent="1-16" drill="0.4" diameter="0.65"/>
 </signal>
 <signal name="N$44">
-<via x="29.291278125" y="4.4348375" extent="1-16" drill="0.4" diameter="0.65"/>
+<via x="29.430978125" y="4.300215625" extent="1-16" drill="0.4" diameter="0.65"/>
 </signal>
 <signal name="N$45">
-<via x="28.432759375" y="4.434840625" extent="1-16" drill="0.4"/>
+<via x="28.59531875" y="4.3053" extent="1-16" drill="0.4"/>
+</signal>
+<signal name="N$11">
+<via x="27.117040625" y="6.710678125" extent="1-16" drill="0.4"/>
+</signal>
+<signal name="N$14">
+<via x="29.430978125" y="6.710678125" extent="1-16" drill="0.4"/>
+</signal>
+<signal name="N$21">
+<via x="30.256475" y="6.710678125" extent="1-16" drill="0.4"/>
+</signal>
+<signal name="N$23">
+<via x="32.7685375" y="6.6954375" extent="1-16" drill="0.4"/>
 </signal>
 <signal name="N$46">
-<via x="27.117040625" y="6.710678125" extent="1-16" drill="0.4"/>
-<via x="29.430978125" y="6.710678125" extent="1-16" drill="0.4"/>
-<via x="30.256475" y="6.710678125" extent="1-16" drill="0.4"/>
 <via x="31.109915625" y="6.7081375" extent="1-16" drill="0.4"/>
-<via x="32.7685375" y="6.6954375" extent="1-16" drill="0.4"/>
-<wire x1="30.256475" y1="6.710678125" x2="31.109915625" y2="6.7081375" width="0" layer="19" extent="1-1"/>
-<wire x1="29.430978125" y1="6.710678125" x2="30.256475" y2="6.710678125" width="0" layer="19" extent="1-1"/>
-<wire x1="32.7685375" y1="6.6954375" x2="31.109915625" y2="6.7081375" width="0" layer="19" extent="1-1"/>
-<wire x1="27.117040625" y1="6.710678125" x2="29.430978125" y2="6.710678125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$47">
 <via x="28.6918375" y="5.2197" extent="1-16" drill="0.4"/>
