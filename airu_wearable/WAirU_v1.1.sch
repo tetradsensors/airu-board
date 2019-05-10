@@ -5126,9 +5126,15 @@ Dont use them.</text>
 </net>
 <net name="GP_LED" class="0">
 <segment>
+<wire x1="78.74" y1="86.36" x2="93.98" y2="86.36" width="0.1524" layer="91"/>
+<label x="81.28" y="86.36" size="1.778" layer="95"/>
+<pinref part="U7" gate="G$1" pin="IO21"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
 <pinref part="U7" gate="G$1" pin="IO13/A2_4"/>
 <wire x1="78.74" y1="104.14" x2="93.98" y2="104.14" width="0.1524" layer="91"/>
-<label x="82.55" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

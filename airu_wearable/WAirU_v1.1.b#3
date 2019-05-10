@@ -826,6 +826,24 @@ JST_2MM_MALE
 </package3d>
 </packages3d>
 </library>
+<library name="SS_OPL_Unmade">
+<packages>
+<package name="SMD-19-237A">
+<smd name="1" x="-0.7" y="0.45" dx="0.65" dy="0.65" layer="1"/>
+<smd name="3" x="-0.7" y="-0.45" dx="0.65" dy="0.65" layer="1"/>
+<smd name="2" x="0.7" y="0.45" dx="0.65" dy="0.65" layer="1"/>
+<smd name="4" x="0.7" y="-0.45" dx="0.65" dy="0.65" layer="1"/>
+<text x="0.4" y="-0.15" size="0.1" layer="37" align="top-left">R</text>
+<text x="-1" y="-0.15" size="0.1" layer="37" align="top-left">G</text>
+<text x="-1" y="0.75" size="0.1" layer="37" align="top-left">B</text>
+<text x="0.4" y="0.75" size="0.1" layer="37" align="top-left">+</text>
+<wire x1="-1.1" y1="0.8" x2="-1.1" y2="-0.8" width="0.01" layer="37"/>
+<wire x1="-1.1" y1="-0.8" x2="1.1" y2="-0.8" width="0.01" layer="37"/>
+<wire x1="1.1" y1="-0.8" x2="1.1" y2="0.8" width="0.01" layer="37"/>
+<wire x1="1.1" y1="0.8" x2="-1.1" y2="0.8" width="0.01" layer="37"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 <attribute name="REV" value="C"/>
@@ -1180,26 +1198,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="28.021834375" y="9.058559375" size="0.635" layer="33" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="26.688334375" y="9.058559375" size="0.635" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="5" library="Seeed-LED" package="LED-0603" value="GREEN-0603" x="33.355328125" y="7.534575" smashed="yes" rot="R270">
-<attribute name="MPN" value="19-217-G7C-AN1P2-3T" x="38.265503125" y="7.534575" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="33.1689" y="5.384346875" size="0.6096" layer="25" ratio="11"/>
-<attribute name="VALUE" x="31.767828125" y="8.677575" size="0.635" layer="27" ratio="10" rot="R270"/>
-</element>
-<element name="6" library="Seeed-LED" package="LED-0603" value="RED-0603" x="31.746821875" y="7.449925" smashed="yes" rot="R270">
-<attribute name="MPN" value="19-217-R6C-AL1M2VY-3T" x="36.656996875" y="7.449925" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="31.5349875" y="5.3758875" size="0.6096" layer="25" ratio="11"/>
-<attribute name="VALUE" x="30.159321875" y="8.592925" size="0.635" layer="27" ratio="10" rot="R270"/>
-</element>
 <element name="C11" library="OPL_Capacitor" package="C0603" value="4.7uf" x="28.021871875" y="12.529415625" smashed="yes">
 <attribute name="MPN" value="CC0603KRX5R6BB475" x="28.021871875" y="12.529415625" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="27.344471875" y="10.370734375" size="0.6096" layer="25" ratio="11"/>
 <attribute name="NAME" x="27.767871875" y="13.799415625" size="0.635" layer="33" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="26.434371875" y="13.799415625" size="0.635" layer="27" ratio="10" rot="R270"/>
-</element>
-<element name="R23" library="Seeed-Resistor" package="R0603" value="330R" x="29.968996875" y="7.78856875" smashed="yes" rot="R180">
-<attribute name="MPN" value="RC0603FR-07330RL" x="29.968996875" y="7.78856875" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="29.249209375" y="5.6722" size="0.6096" layer="25" ratio="11"/>
-<attribute name="VALUE" x="30.057815625" y="9.901515625" size="0.635" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="D9" library="Seeed-Diode" package="DO-214AC" value="40V-1A" x="35.1331625" y="19.810009375" smashed="yes" rot="R90">
 <attribute name="MPN" value="1N5819" x="35.1331625" y="19.810009375" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1297,6 +1300,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="5.577840625" y="-38.63848125" size="0.889" layer="25" ratio="11" rot="R270"/>
 <attribute name="NAME" x="4.434840625" y="-38.63848125" size="0.635" layer="33" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="3.101340625" y="-38.63848125" size="0.635" layer="27" ratio="10" rot="R270"/>
+</element>
+<element name="U$4" library="SS_OPL_Unmade" package="SMD-19-237A" value="19-237A/BHR6GHC-M01/2T" x="4.1021" y="-44.62271875" smashed="yes"/>
+<element name="R5" library="Seeed-Resistor" package="R0603" value="330R" x="0.396240625" y="-43.22571875" smashed="yes">
+<attribute name="MPN" value="RC0603FR-07330RL" x="0.396240625" y="-43.22571875" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-0.619759375" y="-45.13071875" size="0.889" layer="25" ratio="11" rot="R90"/>
+<attribute name="VALUE" x="2.085240625" y="-44.83071875" size="0.635" layer="27" ratio="10" rot="R90"/>
 </element>
 </elements>
 <signals>
@@ -1523,7 +1532,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="11.8804375" y1="9.1238625" x2="11.786640625" y2="9.217659375" width="0.1524" layer="1"/>
 <contactref element="L2" pad="2"/>
 <wire x1="13.65758125" y1="37.92651875" x2="13.65758125" y2="36.5125" width="0.1524" layer="1"/>
-<wire x1="26.3525" y1="2.2225" x2="26.3525" y2="1.905" width="0" layer="19" extent="1-1"/>
+<contactref element="R5" pad="2"/>
+<wire x1="19.621884375" y1="1.797278125" x2="0.396240625" y2="-43.933615625" width="0" layer="19" extent="1-1"/>
+<wire x1="26.3525" y1="1.905" x2="26.3525" y2="2.2225" width="0" layer="19" extent="1-1"/>
 <wire x1="26.67" y1="2.2225" x2="26.3525" y2="2.2225" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RESET">
@@ -1921,7 +1932,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </signal>
 <signal name="N$5">
 <contactref element="U2" pad="4"/>
-<contactref element="R23" pad="2"/>
 <contactref element="C10" pad="1"/>
 <wire x1="34.6075" y1="8.5725" x2="36.195" y2="8.5725" width="0.1524" layer="1"/>
 <wire x1="34.6075" y1="6.35" x2="34.6075" y2="8.5725" width="0.1524" layer="1"/>
@@ -1929,44 +1939,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="30.1625" y1="9.2075" x2="31.75" y2="9.2075" width="0.1524" layer="1"/>
 <wire x1="30.1625" y1="8.5725" x2="30.1625" y2="9.2075" width="0.1524" layer="1"/>
 <wire x1="36.195" y1="8.5725" x2="36.2456375" y2="8.86343125" width="0.1524" layer="1"/>
-<wire x1="30.1625" y1="8.5725" x2="29.968996875" y2="8.496465625" width="0.1524" layer="1"/>
 <wire x1="29.845" y1="8.5725" x2="28.575" y2="8.5725" width="0.1524" layer="1"/>
 <wire x1="28.575" y1="8.5725" x2="28.275834375" y2="8.550559375" width="0.1524" layer="1"/>
-<wire x1="29.845" y1="8.5725" x2="29.968996875" y2="8.496465625" width="0.1524" layer="1"/>
 <via x="34.6075" y="6.35" extent="1-16" drill="0.254"/>
 <via x="31.75" y="9.2075" extent="1-16" drill="0.254"/>
-</signal>
-<signal name="N$11">
-<contactref element="R23" pad="1"/>
-<contactref element="5" pad="+"/>
-<contactref element="6" pad="+"/>
-<wire x1="33.3375" y1="8.255" x2="31.75" y2="8.255" width="0.1524" layer="1"/>
-<wire x1="31.75" y1="8.255" x2="31.746821875" y2="8.211925" width="0.1524" layer="1"/>
-<wire x1="33.3375" y1="8.255" x2="33.355328125" y2="8.296575" width="0.1524" layer="1"/>
-<wire x1="30.7975" y1="7.9375" x2="30.1625" y2="7.3025" width="0.1524" layer="1"/>
-<wire x1="31.4325" y1="7.9375" x2="30.7975" y2="7.9375" width="0.1524" layer="1"/>
-<wire x1="30.1625" y1="7.3025" x2="29.968996875" y2="7.080671875" width="0.1524" layer="1"/>
-<wire x1="31.4325" y1="7.9375" x2="31.746821875" y2="8.211925" width="0.1524" layer="1"/>
-</signal>
-<signal name="N$14">
-<contactref element="U2" pad="6"/>
-<contactref element="5" pad="-"/>
-<wire x1="36.83" y1="5.715" x2="36.83" y2="6.0325" width="0.1524" layer="1"/>
-<wire x1="36.5125" y1="5.3975" x2="36.83" y2="5.715" width="0.1524" layer="1"/>
-<wire x1="33.655" y1="5.3975" x2="36.5125" y2="5.3975" width="0.1524" layer="1"/>
-<wire x1="33.655" y1="6.6675" x2="33.655" y2="5.3975" width="0.1524" layer="1"/>
-<wire x1="36.83" y1="6.0325" x2="36.7456375" y2="6.03643125" width="0.1524" layer="1"/>
-<wire x1="33.655" y1="6.6675" x2="33.355328125" y2="6.772575" width="0.1524" layer="1"/>
-</signal>
-<signal name="N$23">
-<contactref element="U2" pad="7"/>
-<contactref element="6" pad="-"/>
-<wire x1="37.1475" y1="5.3975" x2="37.1475" y2="6.0325" width="0.1524" layer="1"/>
-<wire x1="36.83" y1="5.08" x2="37.1475" y2="5.3975" width="0.1524" layer="1"/>
-<wire x1="31.83465625" y1="5.08" x2="36.83" y2="5.08" width="0.1524" layer="1"/>
-<wire x1="31.83465625" y1="6.123434375" x2="31.83465625" y2="5.08" width="0.1524" layer="1"/>
-<wire x1="37.1475" y1="6.0325" x2="37.2456375" y2="6.03643125" width="0.1524" layer="1"/>
-<wire x1="31.83465625" y1="6.123434375" x2="31.746821875" y2="6.687925" width="0.1524" layer="1"/>
+<wire x1="29.845" y1="8.5725" x2="30.1625" y2="8.5725" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$6">
 <contactref element="U2" pad="2"/>
@@ -2262,6 +2239,34 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="R12" pad="2"/>
 <wire x1="9.1567" y1="-18.923" x2="22.5259625" y2="34.69608125" width="0" layer="19" extent="1-1"/>
 <wire x1="9.1567" y1="-21.2725" x2="9.1567" y2="-18.923" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="GP_LED">
+<contactref element="U$4" pad="1"/>
+</signal>
+<signal name="CHARGING">
+<contactref element="U$4" pad="4"/>
+<contactref element="U2" pad="7"/>
+<wire x1="37.1475" y1="5.3975" x2="37.1475" y2="6.0325" width="0.1524" layer="1"/>
+<wire x1="36.83" y1="5.08" x2="37.1475" y2="5.3975" width="0.1524" layer="1"/>
+<wire x1="31.83465625" y1="5.08" x2="36.83" y2="5.08" width="0.1524" layer="1"/>
+<wire x1="31.83465625" y1="6.123434375" x2="31.83465625" y2="5.08" width="0.1524" layer="1"/>
+<wire x1="37.1475" y1="6.0325" x2="37.2456375" y2="6.03643125" width="0.1524" layer="1"/>
+<wire x1="31.83465625" y1="5.08" x2="4.8021" y2="-45.07271875" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="CHG_DONE">
+<contactref element="U$4" pad="3"/>
+<contactref element="U2" pad="6"/>
+<wire x1="36.83" y1="5.715" x2="36.83" y2="6.0325" width="0.1524" layer="1"/>
+<wire x1="36.5125" y1="5.3975" x2="36.83" y2="5.715" width="0.1524" layer="1"/>
+<wire x1="33.655" y1="5.3975" x2="36.5125" y2="5.3975" width="0.1524" layer="1"/>
+<wire x1="33.655" y1="6.6675" x2="33.655" y2="5.3975" width="0.1524" layer="1"/>
+<wire x1="36.83" y1="6.0325" x2="36.7456375" y2="6.03643125" width="0.1524" layer="1"/>
+<wire x1="33.655" y1="5.3975" x2="3.4021" y2="-45.07271875" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$9">
+<contactref element="U$4" pad="2"/>
+<contactref element="R5" pad="1"/>
+<wire x1="0.396240625" y1="-42.517821875" x2="4.8021" y2="-44.17271875" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

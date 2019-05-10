@@ -2181,8 +2181,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </signal>
 <signal name="GP_LED">
 <contactref element="U$4" pad="1"/>
-<contactref element="U7" pad="33"/>
-<wire x1="3.4021" y1="-44.17271875" x2="39.5259625" y2="35.96608125" width="0" layer="19" extent="1-1"/>
+<contactref element="U7" pad="16"/>
+<wire x1="3.4021" y1="-44.17271875" x2="26.5959625" y2="24.41608125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CHARGING">
 <contactref element="U$4" pad="4"/>

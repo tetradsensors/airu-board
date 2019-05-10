@@ -4808,12 +4808,12 @@ Dont use them.</text>
 <instance part="USB1" gate="G$1" x="165.1" y="66.04" smashed="yes">
 <attribute name="NAME" x="154.94" y="79.502" size="1.778" layer="95"/>
 </instance>
-<instance part="U$34" gate="G$1" x="180.34" y="93.98" smashed="yes">
-<attribute name="VALUE" x="178.816" y="94.996" size="1.27" layer="96"/>
+<instance part="U$34" gate="G$1" x="198.12" y="78.74" smashed="yes">
+<attribute name="VALUE" x="196.596" y="79.756" size="1.27" layer="96"/>
 </instance>
-<instance part="L3" gate="L" x="180.34" y="83.82" smashed="yes" rot="R90">
-<attribute name="NAME" x="179.07" y="81.28" size="1.27" layer="95" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="182.88" y="81.28" size="1.27" layer="96" ratio="10" rot="R90"/>
+<instance part="L3" gate="L" x="190.5" y="76.2" smashed="yes">
+<attribute name="NAME" x="187.96" y="77.47" size="1.27" layer="95" ratio="10"/>
+<attribute name="VALUE" x="187.96" y="73.66" size="1.27" layer="96" ratio="10"/>
 </instance>
 <instance part="MOLEX-53261-0871" gate="-1" x="137.16" y="137.16" smashed="yes">
 <attribute name="VALUE" x="126.238" y="133.477" size="1.778" layer="96"/>
@@ -5152,7 +5152,7 @@ Dont use them.</text>
 </segment>
 <segment>
 <pinref part="U$34" gate="G$1" pin="5.0V"/>
-<wire x1="180.34" y1="88.9" x2="180.34" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="76.2" x2="198.12" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="L3" gate="L" pin="2"/>
 </segment>
 </net>
@@ -5168,10 +5168,10 @@ Dont use them.</text>
 </net>
 <net name="VBUS" class="0">
 <segment>
-<wire x1="175.26" y1="76.2" x2="180.34" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="USB1" gate="G$1" pin="VBUS"/>
-<wire x1="180.34" y1="76.2" x2="180.34" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="76.2" x2="185.42" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="L3" gate="L" pin="1"/>
+<label x="177.8" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RXD" class="0">
