@@ -1217,10 +1217,10 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="unknown" x="48.128190625" y="37.249609375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="47.628190625" y="40.499609375" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="VBAT" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="JST-2-SMD" package3d_urn="urn:adsk.eagle:package:38042/1" value="" x="54.52871875" y="7.345678125" smashed="yes" rot="R270">
-<attribute name="NAME" x="49.928778125" y="5.100321875" size="0.6096" layer="25" font="vector" ratio="20"/>
-<attribute name="PROD_ID" value="CONN-11443" x="54.52871875" y="7.345678125" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="55.16371875" y="8.996678125" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
+<element name="VBAT" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="JST-2-SMD" package3d_urn="urn:adsk.eagle:package:38042/1" value="" x="47.7647" y="9.060178125" smashed="yes" rot="R270">
+<attribute name="NAME" x="43.164759375" y="6.814821875" size="0.6096" layer="25" font="vector" ratio="20"/>
+<attribute name="PROD_ID" value="CONN-11443" x="47.7647" y="9.060178125" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="48.3997" y="10.711178125" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="U4" library="OPL_IC" package="SOT-23-5" package3d_urn="urn:adsk.eagle:package:8004815/1" value="PAM2305AABADJ" x="10.90421875" y="34.42208125" smashed="yes">
 <attribute name="MPN" value="LP2985-33DBVR" x="10.90421875" y="34.42208125" size="1.778" layer="27" display="off"/>
@@ -1402,8 +1402,9 @@ design rules under a new name.</description>
 <wire x1="48.6748" y1="18.40511875" x2="48.285796875" y2="18.794121875" width="0.1524" layer="1"/>
 <wire x1="50.318275" y1="19.3157625" x2="49.37009375" y2="19.3157625" width="0.1524" layer="1"/>
 <wire x1="49.37009375" y1="19.3157625" x2="49.1710875" y2="19.11675625" width="0.1524" layer="1"/>
-<wire x1="50.83225" y1="11.736034375" x2="50.82871875" y2="11.732503125" width="0.1524" layer="1"/>
-<wire x1="50.82871875" y1="8.345678125" x2="50.82871875" y2="11.732503125" width="0.1524" layer="1"/>
+<wire x1="44.0647" y1="10.060178125" x2="44.381684375" y2="10.3771625" width="0.1524" layer="1"/>
+<wire x1="44.381684375" y1="10.3771625" x2="49.473378125" y2="10.3771625" width="0.1524" layer="1"/>
+<wire x1="49.473378125" y1="10.3771625" x2="50.83225" y2="11.736034375" width="0.1524" layer="1"/>
 <wire x1="50.83225" y1="11.736034375" x2="50.83225" y2="18.8017875" width="0.1524" layer="1"/>
 <wire x1="50.83225" y1="18.8017875" x2="50.318275" y2="19.3157625" width="0.1524" layer="1"/>
 <wire x1="49.1710875" y1="19.11675625" x2="49.1710875" y2="18.90140625" width="0.1524" layer="1"/>
@@ -1822,8 +1823,8 @@ design rules under a new name.</description>
 <wire x1="32.501365625" y1="12.97940625" x2="31.680925" y2="13.799846875" width="0.1524" layer="1"/>
 <wire x1="46.017178125" y1="6.350003125" x2="46.017178125" y2="6.23063125" width="0.1524" layer="1"/>
 <wire x1="46.017178125" y1="6.23063125" x2="43.052996875" y2="3.26645" width="0.1524" layer="1"/>
-<wire x1="46.017178125" y1="6.350003125" x2="50.82439375" y2="6.350003125" width="0.1524" layer="1"/>
-<wire x1="50.82871875" y1="6.345678125" x2="50.82439375" y2="6.350003125" width="0.1524" layer="1"/>
+<wire x1="46.017178125" y1="6.350003125" x2="45.774875" y2="6.350003125" width="0.1524" layer="1"/>
+<wire x1="45.774875" y1="6.350003125" x2="44.0647" y2="8.060178125" width="0.1524" layer="1"/>
 </signal>
 <signal name="TXD">
 <contactref element="R10" pad="2"/>

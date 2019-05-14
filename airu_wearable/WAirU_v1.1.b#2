@@ -194,9 +194,9 @@
 <text x="40.6407375" y="48.008515625" size="1.27" layer="21" font="vector">WAirU v2.1</text>
 <text x="40.647490625" y="46.337371875" size="1.016" layer="21" font="vector">05-09-19</text>
 <wire x1="7.9375" y1="-12.7" x2="7.9375" y2="63.5" width="0.254" layer="48" style="longdash"/>
-<hole x="49.080096875" y="1.820440625" drill="2.1082"/>
-<hole x="13.54901875" y="1.77813125" drill="2.1082"/>
-<hole x="13.53208125" y="46.78243125" drill="2.1082"/>
+<hole x="49.080096875" y="1.820440625" drill="5.207"/>
+<hole x="13.54901875" y="1.77813125" drill="4.7498"/>
+<hole x="13.53208125" y="46.78243125" drill="5.207"/>
 </plain>
 <libraries>
 <library name="microbuilder">
@@ -1036,8 +1036,8 @@ design rules under a new name.</description>
 </element>
 <element name="C3" library="Seeed-Capacitor" package="C0603" value="1uf" x="10.03370625" y="6.6573875" smashed="yes" rot="R90">
 <attribute name="MPN" value="CC0603KRX7R8BB105" x="10.03370625" y="6.6573875" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="8.76370625" y="6.4033875" size="0.635" layer="33" ratio="10"/>
 <attribute name="NAME" x="9.037146875" y="7.20463125" size="0.6096" layer="25" ratio="11" rot="R90"/>
+<attribute name="NAME" x="8.76370625" y="6.4033875" size="0.635" layer="33" ratio="10"/>
 <attribute name="VALUE" x="8.76370625" y="5.0698875" size="0.635" layer="27" ratio="10"/>
 </element>
 <element name="Q2" library="Seeed-Transistor" package="SOT-23" value="MMBT3904LT1G" x="14.136646875" y="18.368821875" smashed="yes" rot="R270">
@@ -1052,26 +1052,26 @@ design rules under a new name.</description>
 </element>
 <element name="C19" library="Seeed-Capacitor" package="C0603" value="10uf" x="49.844184375" y="17.880665625" smashed="yes" rot="R180">
 <attribute name="MPN" value="CC0603KRX5R6BB106" x="58.47931875" y="-14.543425" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="50.352159375" y="18.219171875" size="0.635" layer="33" ratio="10" rot="R90"/>
 <attribute name="NAME" x="50.92338125" y="18.7695375" size="0.6096" layer="25" ratio="11" rot="R90"/>
+<attribute name="NAME" x="50.352159375" y="18.219171875" size="0.635" layer="33" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="51.431690625" y="17.118615625" size="0.635" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="C20" library="Seeed-Capacitor" package="C0603" value="10uf" x="11.082390625" y="30.7814" smashed="yes" rot="R90">
 <attribute name="MPN" value="CC0603KRX5R6BB106" x="-21.3417" y="13.511128125" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="10.286965625" y="31.13009375" size="0.635" layer="33" ratio="10"/>
 <attribute name="NAME" x="10.115790625" y="29.966615625" size="0.6096" layer="25" ratio="11" rot="R180"/>
+<attribute name="NAME" x="10.286965625" y="31.13009375" size="0.635" layer="33" ratio="10"/>
 <attribute name="VALUE" x="13.875984375" y="30.54843125" size="0.635" layer="27" ratio="10"/>
 </element>
 <element name="C21" library="Seeed-Capacitor" package="C0603" value="10uf" x="19.979328125" y="36.995634375" smashed="yes" rot="R180">
 <attribute name="MPN" value="CC0603KRX5R6BB106" x="45.8847375" y="4.57154375" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="20.233328125" y="35.725634375" size="0.635" layer="33" ratio="10" rot="R90"/>
 <attribute name="NAME" x="19.090328125" y="35.55631875" size="0.6096" layer="25" ratio="11" rot="R90"/>
+<attribute name="NAME" x="20.233328125" y="35.725634375" size="0.635" layer="33" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="21.566828125" y="35.725634375" size="0.635" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="C24" library="Seeed-Capacitor" package="C0603" value="10uf" x="18.112434375" y="36.980896875" smashed="yes" rot="R180">
 <attribute name="MPN" value="CC0603KRX5R6BB106" x="52.65298125" y="16.070321875" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="18.366434375" y="35.710896875" size="0.635" layer="33" ratio="10" rot="R90"/>
 <attribute name="NAME" x="19.00144375" y="38.42023125" size="0.6096" layer="25" ratio="11" rot="R270"/>
+<attribute name="NAME" x="18.366434375" y="35.710896875" size="0.635" layer="33" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="19.699934375" y="35.710896875" size="0.635" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="5.0V1" library="testpad" library_urn="urn:adsk.eagle:library:385" package="TP20SQ" package3d_urn="urn:adsk.eagle:package:27980/1" value="TPTP20SQ" x="25.54983125" y="7.322928125" smashed="yes" rot="R180">
@@ -1101,8 +1101,8 @@ design rules under a new name.</description>
 </element>
 <element name="C1" library="Seeed-Capacitor" package="C0603" value="1uf" x="20.383884375" y="1.797278125" smashed="yes" rot="R270">
 <attribute name="MPN" value="CC0603KRX7R8BB105" x="39.178003125" y="12.54886875" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="21.653884375" y="2.051278125" size="0.635" layer="33" ratio="10" rot="R180"/>
 <attribute name="NAME" x="18.606190625" y="0.231009375" size="0.6096" layer="25" ratio="11" rot="R180"/>
+<attribute name="NAME" x="21.653884375" y="2.051278125" size="0.635" layer="33" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="21.653884375" y="3.2154625" size="0.635" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="R7" library="Seeed-Resistor" package="R0603" value="4.7K" x="25.566796875" y="0.16931875" smashed="yes" rot="R90">
@@ -1122,14 +1122,14 @@ design rules under a new name.</description>
 </element>
 <element name="C2" library="Seeed-Capacitor" package="C0603" value="100nf" x="31.1206125" y="19.244321875" smashed="yes" rot="R180">
 <attribute name="MPN" value="CC0603KRX7R9BB104" x="44.581265625" y="4.852428125" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="31.3746125" y="17.974321875" size="0.635" layer="33" ratio="10" rot="R90"/>
 <attribute name="NAME" x="30.26283125" y="18.982825" size="0.6096" layer="25" ratio="11" rot="R90"/>
+<attribute name="NAME" x="31.3746125" y="17.974321875" size="0.635" layer="33" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="32.7081125" y="17.974321875" size="0.635" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="C6" library="Seeed-Capacitor" package="C0603" value="1uf" x="39.620040625" y="17.5242625" smashed="yes" rot="R270">
 <attribute name="MPN" value="CC0603KRX7R8BB105" x="54.011934375" y="39.620053125" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="40.890040625" y="17.7782625" size="0.635" layer="33" ratio="10" rot="R180"/>
 <attribute name="NAME" x="42.1599125" y="17.312528125" size="0.6096" layer="25" ratio="11" rot="R180"/>
+<attribute name="NAME" x="40.890040625" y="17.7782625" size="0.635" layer="33" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="40.890040625" y="19.1117625" size="0.635" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="L1" library="OPL_Inductor" package="L0805" value="2.2UH-1.2A" x="47.791240625" y="21.333046875" smashed="yes">
@@ -1143,14 +1143,14 @@ design rules under a new name.</description>
 </element>
 <element name="C7" library="OPL_Capacitor" package="C0603" value="22uf" x="45.20748125" y="14.8151875" smashed="yes" rot="R180">
 <attribute name="MPN" value="CC0603KRX5R6BB106" x="45.20748125" y="14.8151875" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="45.46148125" y="13.5451875" size="0.635" layer="33" ratio="10" rot="R90"/>
 <attribute name="NAME" x="44.443090625" y="13.6851625" size="0.6096" layer="25" ratio="11" rot="R270"/>
+<attribute name="NAME" x="45.46148125" y="13.5451875" size="0.635" layer="33" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="46.625665625" y="13.7991625" size="0.635" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="C9" library="OPL_Capacitor" package="C0603" value="22uf" x="47.5779125" y="14.053259375" smashed="yes" rot="R270">
 <attribute name="MPN" value="CC0603KRX5R6BB106" x="47.5779125" y="14.053259375" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="48.8479125" y="14.307259375" size="0.635" layer="33" ratio="10" rot="R180"/>
 <attribute name="NAME" x="48.10844375" y="12.96685625" size="0.6096" layer="25" ratio="11"/>
+<attribute name="NAME" x="48.8479125" y="14.307259375" size="0.635" layer="33" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="48.25530625" y="13.524303125" size="0.635" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="R20" library="OPL_Resistor" package="R0603" value="750K" x="47.5779125" y="15.5771125" smashed="yes" rot="R270">
@@ -1170,14 +1170,14 @@ design rules under a new name.</description>
 </element>
 <element name="C10" library="OPL_Capacitor" package="C0603" value="22uf" x="28.275834375" y="7.788559375" smashed="yes">
 <attribute name="MPN" value="CC0603KRX5R6BB106" x="28.275834375" y="7.788559375" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="28.021834375" y="9.058559375" size="0.635" layer="33" ratio="10" rot="R270"/>
 <attribute name="NAME" x="27.552721875" y="5.6298625" size="0.6096" layer="25" ratio="11"/>
+<attribute name="NAME" x="28.021834375" y="9.058559375" size="0.635" layer="33" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="26.688334375" y="9.058559375" size="0.635" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="C11" library="OPL_Capacitor" package="C0603" value="4.7uf" x="28.021871875" y="12.529415625" smashed="yes">
 <attribute name="MPN" value="CC0603KRX5R6BB475" x="28.021871875" y="12.529415625" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="27.767871875" y="13.799415625" size="0.635" layer="33" ratio="10" rot="R270"/>
 <attribute name="NAME" x="27.344471875" y="10.370734375" size="0.6096" layer="25" ratio="11"/>
+<attribute name="NAME" x="27.767871875" y="13.799415625" size="0.635" layer="33" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="26.434371875" y="13.799415625" size="0.635" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="D9" library="Seeed-Diode" package="DO-214AC" value="40V-1A" x="39.265740625" y="21.8724875" smashed="yes">
@@ -1217,10 +1217,10 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="unknown" x="48.128190625" y="37.249609375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="47.628190625" y="40.499609375" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="VBAT" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="JST-2-SMD" package3d_urn="urn:adsk.eagle:package:38042/1" value="" x="54.52871875" y="7.345678125" smashed="yes" rot="R270">
-<attribute name="NAME" x="49.928778125" y="5.100321875" size="0.6096" layer="25" font="vector" ratio="20"/>
-<attribute name="PROD_ID" value="CONN-11443" x="54.52871875" y="7.345678125" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="55.16371875" y="8.996678125" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
+<element name="VBAT" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="JST-2-SMD" package3d_urn="urn:adsk.eagle:package:38042/1" value="" x="52.3748" y="8.94841875" smashed="yes" rot="R270">
+<attribute name="NAME" x="47.774859375" y="6.7030625" size="0.6096" layer="25" font="vector" ratio="20"/>
+<attribute name="PROD_ID" value="CONN-11443" x="52.3748" y="8.94841875" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="53.0098" y="10.59941875" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="U4" library="OPL_IC" package="SOT-23-5" package3d_urn="urn:adsk.eagle:package:8004815/1" value="PAM2305AABADJ" x="10.90421875" y="34.42208125" smashed="yes">
 <attribute name="MPN" value="LP2985-33DBVR" x="10.90421875" y="34.42208125" size="1.778" layer="27" display="off"/>
@@ -1261,10 +1261,10 @@ design rules under a new name.</description>
 <attribute name="TP_SIGNAL_NAME" value="" x="46.052740625" y="28.1279625" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="45.036740625" y="26.9849625" size="0.0254" layer="27"/>
 </element>
-<element name="TP_VBAT" library="testpad" library_urn="urn:adsk.eagle:library:385" package="TP20SQ" package3d_urn="urn:adsk.eagle:package:27980/1" value="TPTP20SQ" x="43.052996875" y="3.26645" smashed="yes">
-<attribute name="NAME" x="41.773596875" y="-0.618771875" size="1.27" layer="25"/>
-<attribute name="TP_SIGNAL_NAME" value="" x="43.052996875" y="3.26645" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="42.036996875" y="2.12345" size="0.0254" layer="27"/>
+<element name="TP_VBAT" library="testpad" library_urn="urn:adsk.eagle:library:385" package="TP20SQ" package3d_urn="urn:adsk.eagle:package:27980/1" value="TPTP20SQ" x="43.891196875" y="3.96240625" smashed="yes">
+<attribute name="NAME" x="42.891196875" y="5.01240625" size="1.27" layer="25"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="43.891196875" y="3.96240625" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="42.875196875" y="2.81940625" size="0.0254" layer="27"/>
 </element>
 <element name="D2" library="Seeed-Diode" package="DO-214AC" value="40V-1A" x="40.098978125" y="13.213078125" smashed="yes" rot="R90">
 <attribute name="MPN" value="1N5819" x="40.098978125" y="13.213078125" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1273,8 +1273,8 @@ design rules under a new name.</description>
 </element>
 <element name="C4" library="Seeed-Capacitor" package="C0603" value="10uf" x="29.64941875" y="19.240496875" smashed="yes">
 <attribute name="MPN" value="CC0603KRX5R6BB106" x="29.64941875" y="19.240496875" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="29.39541875" y="20.510496875" size="0.635" layer="33" ratio="10" rot="R270"/>
 <attribute name="NAME" x="30.53841875" y="20.510496875" size="0.889" layer="25" ratio="11" rot="R270"/>
+<attribute name="NAME" x="29.39541875" y="20.510496875" size="0.635" layer="33" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="28.06191875" y="20.510496875" size="0.635" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="U$4" library="SS_OPL_Unmade" package="SMD-19-237A" value="19-237A/BHR6GHC-M01/2T" x="20.2057" y="11.389359375" smashed="yes" rot="R270"/>
@@ -1402,8 +1402,9 @@ design rules under a new name.</description>
 <wire x1="48.6748" y1="18.40511875" x2="48.285796875" y2="18.794121875" width="0.1524" layer="1"/>
 <wire x1="50.318275" y1="19.3157625" x2="49.37009375" y2="19.3157625" width="0.1524" layer="1"/>
 <wire x1="49.37009375" y1="19.3157625" x2="49.1710875" y2="19.11675625" width="0.1524" layer="1"/>
-<wire x1="50.83225" y1="11.736034375" x2="50.82871875" y2="11.732503125" width="0.1524" layer="1"/>
-<wire x1="50.82871875" y1="8.345678125" x2="50.82871875" y2="11.732503125" width="0.1524" layer="1"/>
+<wire x1="48.6748" y1="9.94841875" x2="49.10354375" y2="10.3771625" width="0.1524" layer="1"/>
+<wire x1="49.10354375" y1="10.3771625" x2="49.473378125" y2="10.3771625" width="0.1524" layer="1"/>
+<wire x1="49.473378125" y1="10.3771625" x2="50.83225" y2="11.736034375" width="0.1524" layer="1"/>
 <wire x1="50.83225" y1="11.736034375" x2="50.83225" y2="18.8017875" width="0.1524" layer="1"/>
 <wire x1="50.83225" y1="18.8017875" x2="50.318275" y2="19.3157625" width="0.1524" layer="1"/>
 <wire x1="49.1710875" y1="19.11675625" x2="49.1710875" y2="18.90140625" width="0.1524" layer="1"/>
@@ -1810,20 +1811,21 @@ design rules under a new name.</description>
 <wire x1="32.170115625" y1="10.117734375" x2="32.781240625" y2="10.117734375" width="0.1524" layer="1"/>
 <wire x1="32.0675" y1="10.22035" x2="32.170115625" y2="10.117734375" width="0.1524" layer="1" curve="90"/>
 <wire x1="32.0675" y1="13.335" x2="32.0675" y2="10.22035" width="0.1524" layer="1"/>
+<wire x1="48.6273" y1="7.99591875" x2="46.022259375" y2="7.99591875" width="0.1524" layer="1"/>
 <via x="46.017178125" y="6.350003125" extent="1-16" drill="0.254"/>
 <wire x1="46.017178125" y1="6.350003125" x2="46.017175" y2="6.35" width="0.1524" layer="16"/>
 <wire x1="46.017175" y1="6.35" x2="38.4175" y2="6.35" width="0.1524" layer="16"/>
 <wire x1="46.017178125" y1="8.001" x2="46.017178125" y2="6.350003125" width="0.1524" layer="1"/>
 <wire x1="46.015540625" y1="8.0026375" x2="46.017178125" y2="8.001" width="0.1524" layer="1"/>
+<wire x1="46.017178125" y1="8.001" x2="46.022259375" y2="7.99591875" width="0.1524" layer="1"/>
 <contactref element="R13" pad="2"/>
 <contactref element="TP_VBAT" pad="TP"/>
 <contactref element="VBAT" pad="2"/>
 <wire x1="34.1884" y1="12.97940625" x2="32.501365625" y2="12.97940625" width="0.1524" layer="1"/>
 <wire x1="32.501365625" y1="12.97940625" x2="31.680925" y2="13.799846875" width="0.1524" layer="1"/>
-<wire x1="46.017178125" y1="6.350003125" x2="46.017178125" y2="6.23063125" width="0.1524" layer="1"/>
-<wire x1="46.017178125" y1="6.23063125" x2="43.052996875" y2="3.26645" width="0.1524" layer="1"/>
-<wire x1="46.017178125" y1="6.350003125" x2="50.82439375" y2="6.350003125" width="0.1524" layer="1"/>
-<wire x1="50.82871875" y1="6.345678125" x2="50.82439375" y2="6.350003125" width="0.1524" layer="1"/>
+<wire x1="43.891196875" y1="3.96240625" x2="46.017178125" y2="6.0883875" width="0.1524" layer="1"/>
+<wire x1="46.017178125" y1="6.0883875" x2="46.017178125" y2="6.350003125" width="0.1524" layer="1"/>
+<wire x1="48.6748" y1="7.94841875" x2="48.6273" y2="7.99591875" width="0.1524" layer="1"/>
 </signal>
 <signal name="TXD">
 <contactref element="R10" pad="2"/>
