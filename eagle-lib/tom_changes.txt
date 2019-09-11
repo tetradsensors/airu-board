@@ -1,0 +1,7 @@
+Changes from V2.1:
+
+- Changed ESP32 P36 from GPS Standby to GPS P3 (GPS RX)
+- Changed ESP32 P37 from GPS Timer to GPS P2 (GPS TX)
+- Moved PM_SET back to ESP32 P29
+- Moved PM_RESET back to ESP32 P28
+- Removed both 4-Pin Headers
