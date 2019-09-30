@@ -5027,7 +5027,7 @@ Dont use them.</text>
 <segment>
 <pinref part="MOLEX-53261-0871" gate="-3" pin="S"/>
 <wire x1="134.62" y1="142.24" x2="116.84" y2="142.24" width="0.1524" layer="91"/>
-<label x="121.92" y="142.24" size="1.778" layer="95"/>
+<label x="119.38" y="142.24" size="1.778" layer="95"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 </segment>
 <segment>
@@ -5039,8 +5039,8 @@ Dont use them.</text>
 <net name="PM_SET" class="0">
 <segment>
 <pinref part="MOLEX-53261-0871" gate="-6" pin="S"/>
-<label x="121.92" y="149.86" size="1.778" layer="95"/>
-<wire x1="121.412" y1="149.86" x2="134.62" y2="149.86" width="0.1524" layer="91"/>
+<label x="119.38" y="149.86" size="1.778" layer="95"/>
+<wire x1="112.522" y1="149.86" x2="134.62" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="27.94" y1="68.58" x2="10.16" y2="68.58" width="0.1524" layer="91"/>
@@ -5079,14 +5079,14 @@ Dont use them.</text>
 <wire x1="107.95" y1="144.78" x2="134.62" y2="144.78" width="0.1524" layer="91"/>
 <junction x="107.95" y="144.78"/>
 <pinref part="MOLEX-53261-0871" gate="-4" pin="S"/>
-<label x="121.92" y="144.78" size="1.778" layer="95"/>
+<label x="124.46" y="144.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RXD" class="0">
 <segment>
 <pinref part="MOLEX-53261-0871" gate="-5" pin="S"/>
 <wire x1="134.62" y1="147.32" x2="121.92" y2="147.32" width="0.1524" layer="91"/>
-<label x="121.92" y="147.32" size="1.778" layer="95"/>
+<label x="124.46" y="147.32" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U7" gate="G$1" pin="TXD0"/>
