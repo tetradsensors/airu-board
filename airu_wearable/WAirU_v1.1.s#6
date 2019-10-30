@@ -4780,6 +4780,58 @@ www.irf.com&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="Seeed-OPL-Capacitor">
+<packages>
+<package name="C0805">
+<description>&lt;b&gt;0805&lt;b&gt;&lt;p&gt;</description>
+<wire x1="0.889" y1="-1.651" x2="-0.889" y2="-1.651" width="0.127" layer="21"/>
+<wire x1="-0.889" y1="-1.651" x2="-0.889" y2="1.651" width="0.127" layer="21"/>
+<wire x1="-0.889" y1="1.651" x2="0.889" y2="1.651" width="0.127" layer="21"/>
+<wire x1="0.889" y1="1.651" x2="0.889" y2="-1.651" width="0.127" layer="21"/>
+<smd name="1" x="0" y="0.889" dx="1.016" dy="1.397" layer="1" roundness="25" rot="R270"/>
+<smd name="2" x="0" y="-0.889" dx="1.016" dy="1.397" layer="1" roundness="25" rot="R270"/>
+<text x="1.143" y="1.905" size="0.889" layer="25" font="vector" ratio="11" rot="R270">&gt;NAME</text>
+<text x="-2.159" y="1.905" size="0.635" layer="27" ratio="10" rot="R270">&gt;VALUE</text>
+<rectangle x1="-1.4605" y1="-0.762" x2="1.4605" y2="0.762" layer="39" rot="R270"/>
+</package>
+</packages>
+<symbols>
+<symbol name="C">
+<wire x1="-0.635" y1="-1.016" x2="-0.635" y2="0" width="0.254" layer="94"/>
+<wire x1="-0.635" y1="0" x2="-0.635" y2="1.016" width="0.254" layer="94"/>
+<wire x1="0.635" y1="1.016" x2="0.635" y2="0" width="0.254" layer="94"/>
+<wire x1="0.635" y1="0" x2="0.635" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-0.635" y2="0" width="0.1524" layer="94"/>
+<wire x1="0.635" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<text x="-3.81" y="1.27" size="1.27" layer="95" ratio="10">&gt;NAME</text>
+<text x="-3.81" y="-2.54" size="1.27" layer="96" ratio="10">&gt;VALUE</text>
+<pin name="1" x="-3.81" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="2" x="3.81" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="CERAMIC-22UF-6.3V-20%-X5R(0805)" prefix="C" uservalue="yes">
+<description>302010171</description>
+<gates>
+<gate name="G$1" symbol="C" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="C0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CC0805MKX5R5BB226" constant="no"/>
+<attribute name="VALUE" value="22uf"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 <attribute name="COMPANY" value="ADAFRUIT INDUSTRIES"/>
@@ -4857,7 +4909,6 @@ www.irf.com&lt;p&gt;
 <part name="U$10" library="Power or GND " deviceset="GND_POWER" device=""/>
 <part name="U$12" library="ESP32" deviceset="VBUS" device=""/>
 <part name="U2" library="Seeed-IC" deviceset="PMIC-CN3065(DFN8)" device="" value="CN3065-DFN8"/>
-<part name="C10" library="OPL_Capacitor" deviceset="CERAMIC-10UF-10V-10%-X5R(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004287/1" value="10uf"/>
 <part name="U$18" library="Power or GND " deviceset="GND_POWER" device=""/>
 <part name="U$20" library="Power or GND " deviceset="GND_POWER" device=""/>
 <part name="C11" library="OPL_Capacitor" deviceset="CERAMIC-4.7UF-10V-10%-X5R(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004287/1" value="4.7uf"/>
@@ -4910,6 +4961,7 @@ www.irf.com&lt;p&gt;
 <part name="R14" library="Seeed-Resistor" deviceset="SMD-RES-100K-5%-1/10W(0603)" device="" value="100K 1/10W"/>
 <part name="U$31" library="Power or GND " deviceset="GND_POWER" device=""/>
 <part name="U$32" library="Power or GND " deviceset="GND_POWER" device=""/>
+<part name="C10" library="Seeed-OPL-Capacitor" deviceset="CERAMIC-22UF-6.3V-20%-X5R(0805)" device="" value="22uf"/>
 </parts>
 <sheets>
 <sheet>
@@ -5332,25 +5384,6 @@ Dont use them.</text>
 <wire x1="78.74" y1="111.76" x2="93.98" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="5.0V" class="0">
-<segment>
-<pinref part="U$56" gate="G$1" pin="5.0V"/>
-<pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="93.98" y1="162.56" x2="93.98" y2="161.29" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U$58" gate="G$1" pin="5.0V"/>
-<pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="86.36" y1="162.56" x2="86.36" y2="161.29" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U$8" gate="G$1" pin="5.0V"/>
-<wire x1="116.84" y1="162.56" x2="116.84" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="MOLEX-53261-0871" gate="-8" pin="S"/>
-<wire x1="116.84" y1="154.94" x2="134.62" y2="154.94" width="0.1524" layer="91"/>
-<label x="124.46" y="154.94" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="PMS_TX" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
@@ -5376,6 +5409,25 @@ Dont use them.</text>
 <wire x1="214.63" y1="85.09" x2="217.17" y2="85.09" width="0.1524" layer="91"/>
 <pinref part="L3" gate="L" pin="2"/>
 <label x="217.17" y="85.09" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$8" gate="G$1" pin="5.0V"/>
+<wire x1="116.84" y1="162.56" x2="116.84" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="MOLEX-53261-0871" gate="-8" pin="S"/>
+<wire x1="116.84" y1="154.94" x2="134.62" y2="154.94" width="0.1524" layer="91"/>
+<label x="121.92" y="154.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$58" gate="G$1" pin="5.0V"/>
+<pinref part="C2" gate="G$1" pin="2"/>
+<wire x1="86.36" y1="162.56" x2="86.36" y2="161.29" width="0.1524" layer="91"/>
+<label x="78.74" y="160.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$56" gate="G$1" pin="5.0V"/>
+<pinref part="C3" gate="G$1" pin="2"/>
+<wire x1="93.98" y1="162.56" x2="93.98" y2="161.29" width="0.1524" layer="91"/>
+<label x="101.6" y="162.56" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="VBUS_RAW" class="0">
@@ -5489,10 +5541,6 @@ connected through programmer</text>
 <attribute name="NAME" x="180.34" y="113.03" size="1.27" layer="95" ratio="10"/>
 <attribute name="VALUE" x="187.96" y="113.03" size="1.27" layer="96" ratio="10"/>
 </instance>
-<instance part="C10" gate="G$1" x="163.83" y="98.298" smashed="yes" rot="R90">
-<attribute name="NAME" x="162.56" y="94.488" size="1.27" layer="95" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="166.37" y="94.488" size="1.27" layer="96" ratio="10" rot="R90"/>
-</instance>
 <instance part="U$18" gate="G$1" x="187.96" y="96.52" smashed="yes"/>
 <instance part="U$20" gate="G$1" x="208.28" y="93.98" smashed="yes"/>
 <instance part="C11" gate="G$1" x="208.28" y="99.06" smashed="yes" rot="R90">
@@ -5527,9 +5575,9 @@ connected through programmer</text>
 <attribute name="NAME" x="56.388" y="94.488" size="1.27" layer="95" ratio="10"/>
 <attribute name="VALUE" x="60.706" y="94.742" size="1.27" layer="96" ratio="10"/>
 </instance>
-<instance part="L2" gate="G$1" x="82.042" y="90.17" smashed="yes">
-<attribute name="NAME" x="79.502" y="91.44" size="1.27" layer="95" ratio="10"/>
-<attribute name="VALUE" x="79.502" y="87.63" size="1.27" layer="96" ratio="10"/>
+<instance part="L2" gate="G$1" x="84.582" y="90.17" smashed="yes">
+<attribute name="NAME" x="82.042" y="91.44" size="1.27" layer="95" ratio="10"/>
+<attribute name="VALUE" x="82.042" y="87.63" size="1.27" layer="96" ratio="10"/>
 </instance>
 <instance part="R12" gate="G$1" x="162.56" y="142.24" smashed="yes" rot="R90">
 <attribute name="NAME" x="161.29" y="138.43" size="1.27" layer="95" ratio="10" rot="R90"/>
@@ -5624,6 +5672,10 @@ connected through programmer</text>
 </instance>
 <instance part="U$31" gate="G$1" x="22.86" y="120.65" smashed="yes"/>
 <instance part="U$32" gate="G$1" x="163.83" y="92.202" smashed="yes"/>
+<instance part="C10" gate="G$1" x="163.83" y="98.298" smashed="yes" rot="R90">
+<attribute name="NAME" x="162.56" y="96.012" size="1.27" layer="95" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="166.37" y="95.758" size="1.27" layer="96" ratio="10" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -5730,9 +5782,9 @@ connected through programmer</text>
 <wire x1="22.86" y1="121.92" x2="22.86" y2="120.65" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C10" gate="G$1" pin="1"/>
 <pinref part="U$32" gate="G$1" pin="GND"/>
 <wire x1="163.83" y1="94.488" x2="163.83" y2="92.202" width="0.1524" layer="91"/>
+<pinref part="C10" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -5748,7 +5800,7 @@ connected through programmer</text>
 <junction x="99.314" y="95.25"/>
 <pinref part="TP_3V3" gate="G$1" pin="TP"/>
 <pinref part="C12" gate="G$1" pin="2"/>
-<wire x1="87.122" y1="90.17" x2="92.71" y2="90.17" width="0.1524" layer="91"/>
+<wire x1="89.662" y1="90.17" x2="92.71" y2="90.17" width="0.1524" layer="91"/>
 <wire x1="92.71" y1="90.17" x2="96.012" y2="90.17" width="0.1524" layer="91"/>
 <wire x1="96.012" y1="90.17" x2="101.092" y2="90.17" width="0.1524" layer="91"/>
 <wire x1="101.092" y1="90.17" x2="101.092" y2="86.36" width="0.1524" layer="91"/>
@@ -5851,9 +5903,9 @@ connected through programmer</text>
 <wire x1="163.83" y1="113.792" x2="163.83" y2="102.87" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="VIN"/>
 <wire x1="176.53" y1="102.87" x2="163.83" y2="102.87" width="0.1524" layer="91"/>
-<pinref part="C10" gate="G$1" pin="2"/>
 <wire x1="163.83" y1="102.108" x2="163.83" y2="102.87" width="0.1524" layer="91"/>
 <junction x="163.83" y="102.87"/>
+<pinref part="C10" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -5894,6 +5946,7 @@ connected through programmer</text>
 <segment>
 <pinref part="U4" gate="G$1" pin="VOUT"/>
 <pinref part="L2" gate="G$1" pin="1"/>
+<wire x1="79.502" y1="90.17" x2="76.962" y2="90.17" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BAT_CHECK" class="0">
@@ -5999,7 +6052,7 @@ connected through programmer</text>
 <pinref part="R11" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$67" class="0">
+<net name="V_IN1" class="0">
 <segment>
 <pinref part="L1" gate="L" pin="1"/>
 <wire x1="58.42" y1="147.32" x2="48.26" y2="147.32" width="0.1524" layer="91"/>
