@@ -5332,25 +5332,6 @@ Dont use them.</text>
 <wire x1="78.74" y1="111.76" x2="93.98" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="5.0V" class="0">
-<segment>
-<pinref part="U$56" gate="G$1" pin="5.0V"/>
-<pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="93.98" y1="162.56" x2="93.98" y2="161.29" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U$58" gate="G$1" pin="5.0V"/>
-<pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="86.36" y1="162.56" x2="86.36" y2="161.29" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U$8" gate="G$1" pin="5.0V"/>
-<wire x1="116.84" y1="162.56" x2="116.84" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="MOLEX-53261-0871" gate="-8" pin="S"/>
-<wire x1="116.84" y1="154.94" x2="134.62" y2="154.94" width="0.1524" layer="91"/>
-<label x="124.46" y="154.94" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="PMS_TX" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
@@ -5376,6 +5357,25 @@ Dont use them.</text>
 <wire x1="214.63" y1="85.09" x2="217.17" y2="85.09" width="0.1524" layer="91"/>
 <pinref part="L3" gate="L" pin="2"/>
 <label x="217.17" y="85.09" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$8" gate="G$1" pin="5.0V"/>
+<wire x1="116.84" y1="162.56" x2="116.84" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="MOLEX-53261-0871" gate="-8" pin="S"/>
+<wire x1="116.84" y1="154.94" x2="134.62" y2="154.94" width="0.1524" layer="91"/>
+<label x="121.92" y="154.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$58" gate="G$1" pin="5.0V"/>
+<pinref part="C2" gate="G$1" pin="2"/>
+<wire x1="86.36" y1="162.56" x2="86.36" y2="161.29" width="0.1524" layer="91"/>
+<label x="78.74" y="160.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$56" gate="G$1" pin="5.0V"/>
+<pinref part="C3" gate="G$1" pin="2"/>
+<wire x1="93.98" y1="162.56" x2="93.98" y2="161.29" width="0.1524" layer="91"/>
+<label x="101.6" y="162.56" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="VBUS_RAW" class="0">
@@ -5527,9 +5527,9 @@ connected through programmer</text>
 <attribute name="NAME" x="56.388" y="94.488" size="1.27" layer="95" ratio="10"/>
 <attribute name="VALUE" x="60.706" y="94.742" size="1.27" layer="96" ratio="10"/>
 </instance>
-<instance part="L2" gate="G$1" x="82.042" y="90.17" smashed="yes">
-<attribute name="NAME" x="79.502" y="91.44" size="1.27" layer="95" ratio="10"/>
-<attribute name="VALUE" x="79.502" y="87.63" size="1.27" layer="96" ratio="10"/>
+<instance part="L2" gate="G$1" x="84.582" y="90.17" smashed="yes">
+<attribute name="NAME" x="82.042" y="91.44" size="1.27" layer="95" ratio="10"/>
+<attribute name="VALUE" x="82.042" y="87.63" size="1.27" layer="96" ratio="10"/>
 </instance>
 <instance part="R12" gate="G$1" x="162.56" y="142.24" smashed="yes" rot="R90">
 <attribute name="NAME" x="161.29" y="138.43" size="1.27" layer="95" ratio="10" rot="R90"/>
@@ -5748,7 +5748,7 @@ connected through programmer</text>
 <junction x="99.314" y="95.25"/>
 <pinref part="TP_3V3" gate="G$1" pin="TP"/>
 <pinref part="C12" gate="G$1" pin="2"/>
-<wire x1="87.122" y1="90.17" x2="92.71" y2="90.17" width="0.1524" layer="91"/>
+<wire x1="89.662" y1="90.17" x2="92.71" y2="90.17" width="0.1524" layer="91"/>
 <wire x1="92.71" y1="90.17" x2="96.012" y2="90.17" width="0.1524" layer="91"/>
 <wire x1="96.012" y1="90.17" x2="101.092" y2="90.17" width="0.1524" layer="91"/>
 <wire x1="101.092" y1="90.17" x2="101.092" y2="86.36" width="0.1524" layer="91"/>
@@ -5894,6 +5894,7 @@ connected through programmer</text>
 <segment>
 <pinref part="U4" gate="G$1" pin="VOUT"/>
 <pinref part="L2" gate="G$1" pin="1"/>
+<wire x1="79.502" y1="90.17" x2="76.962" y2="90.17" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BAT_CHECK" class="0">
@@ -5999,7 +6000,7 @@ connected through programmer</text>
 <pinref part="R11" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$67" class="0">
+<net name="V_IN1" class="0">
 <segment>
 <pinref part="L1" gate="L" pin="1"/>
 <wire x1="58.42" y1="147.32" x2="48.26" y2="147.32" width="0.1524" layer="91"/>
