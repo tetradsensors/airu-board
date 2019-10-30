@@ -1,3 +1,3 @@
-# AirUv2.1 Schematic and Layout
+# AirU_PoE Schematic and Layout
 
-Last Modified: November 12, 2018 by Trenton Taylor
+Last Modified: October 30, 2019 by Henry Gilbert
