@@ -4887,6 +4887,16 @@ Dont use them.</text>
 <text x="5.08" y="172.72" size="1.778" layer="94">TEMPERATURE/HUMIDITY</text>
 <text x="78.74" y="172.72" size="1.778" layer="94">PM &amp; Program</text>
 <text x="143.764" y="106.172" size="1.778" layer="94">USB to UART</text>
+<text x="152.4" y="137.16" size="1.778" layer="91">PMS 	Prog
+-------	--------
+- 5V	- NC 
+- GND	- GND
+- SET	- NC
+- NC	- Prog RX
+- TX	- NC
+- NC	- Prog TX
+- NC	- DTR
+- NC	- RTS</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$3" x="134.62" y="2.54" smashed="yes">

@@ -5368,6 +5368,9 @@ Dont use them.</text>
 <text x="7.62" y="170.18" size="1.778" layer="94">Power Management</text>
 <text x="105.41" y="127" size="1.778" layer="91" align="center-left">Diode needed when 5V 
 connected through programmer</text>
+<text x="35.56" y="146.05" size="1.016" layer="91" align="bottom-right">Pulldown connected to 
+VBUS on PAM2305 circuit, 
+so not needed here</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes"/>

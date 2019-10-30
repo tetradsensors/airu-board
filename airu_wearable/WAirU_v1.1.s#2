@@ -5349,6 +5349,13 @@ Dont use them.</text>
 <label x="17.78" y="68.58" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="EN_PAM2401" class="0">
+<segment>
+<pinref part="U7" gate="G$1" pin="IO2/A2_2"/>
+<wire x1="78.74" y1="114.3" x2="93.98" y2="114.3" width="0.1524" layer="91"/>
+<label x="81.28" y="114.3" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>

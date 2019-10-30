@@ -5527,9 +5527,9 @@ connected through programmer</text>
 <attribute name="NAME" x="56.388" y="94.488" size="1.27" layer="95" ratio="10"/>
 <attribute name="VALUE" x="60.706" y="94.742" size="1.27" layer="96" ratio="10"/>
 </instance>
-<instance part="L2" gate="G$1" x="82.042" y="90.17" smashed="yes">
-<attribute name="NAME" x="79.502" y="91.44" size="1.27" layer="95" ratio="10"/>
-<attribute name="VALUE" x="79.502" y="87.63" size="1.27" layer="96" ratio="10"/>
+<instance part="L2" gate="G$1" x="84.582" y="90.17" smashed="yes">
+<attribute name="NAME" x="82.042" y="91.44" size="1.27" layer="95" ratio="10"/>
+<attribute name="VALUE" x="82.042" y="87.63" size="1.27" layer="96" ratio="10"/>
 </instance>
 <instance part="R12" gate="G$1" x="162.56" y="142.24" smashed="yes" rot="R90">
 <attribute name="NAME" x="161.29" y="138.43" size="1.27" layer="95" ratio="10" rot="R90"/>
@@ -5748,7 +5748,7 @@ connected through programmer</text>
 <junction x="99.314" y="95.25"/>
 <pinref part="TP_3V3" gate="G$1" pin="TP"/>
 <pinref part="C12" gate="G$1" pin="2"/>
-<wire x1="87.122" y1="90.17" x2="92.71" y2="90.17" width="0.1524" layer="91"/>
+<wire x1="89.662" y1="90.17" x2="92.71" y2="90.17" width="0.1524" layer="91"/>
 <wire x1="92.71" y1="90.17" x2="96.012" y2="90.17" width="0.1524" layer="91"/>
 <wire x1="96.012" y1="90.17" x2="101.092" y2="90.17" width="0.1524" layer="91"/>
 <wire x1="101.092" y1="90.17" x2="101.092" y2="86.36" width="0.1524" layer="91"/>
@@ -5894,6 +5894,7 @@ connected through programmer</text>
 <segment>
 <pinref part="U4" gate="G$1" pin="VOUT"/>
 <pinref part="L2" gate="G$1" pin="1"/>
+<wire x1="79.502" y1="90.17" x2="76.962" y2="90.17" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BAT_CHECK" class="0">
