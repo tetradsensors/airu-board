@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.0">
+<eagle version="9.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -4860,6 +4860,7 @@ part number 2062-2P from STA</description>
 <part name="Q1" library="BSS84" deviceset="BSS84" device=""/>
 <part name="R14" library="Seeed-Resistor" deviceset="SMD-RES-100K-5%-1/10W(0603)" device="" value="100K 1/10W"/>
 <part name="U$4" library="Power or GND " deviceset="GND_POWER" device=""/>
+<part name="D3_CUT" library="Seeed-OPL-Diode" deviceset="SMD-DIODE-SCHOTTKY-20V-1A(SOD-123)" device="" value="20V-1A"/>
 </parts>
 <sheets>
 <sheet>
@@ -4876,7 +4877,7 @@ part number 2062-2P from STA</description>
 <wire x1="43.18" y1="48.26" x2="43.18" y2="5.08" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="142.24" y1="109.22" x2="256.54" y2="109.22" width="0.1524" layer="94" style="shortdash"/>
 <text x="4.826" y="45.466" size="1.778" layer="94">POWER</text>
-<text x="167.64" y="22.86" size="2.54" layer="94">WAirU v2.0</text>
+<text x="167.64" y="22.86" size="2.54" layer="94">WAirU v2.1</text>
 <text x="167.64" y="12.7" size="2.54" layer="94">October 22, 2019</text>
 <text x="96.52" y="93.98" size="1.6764" layer="94">*U2TXD not used for PM SENSOR*</text>
 <text x="95.25" y="128.524" size="1.778" layer="94">GPIOs 34-39 are input only.</text>
@@ -4887,21 +4888,21 @@ Dont use them.</text>
 <text x="5.08" y="172.72" size="1.778" layer="94">TEMPERATURE/HUMIDITY</text>
 <text x="78.74" y="172.72" size="1.778" layer="94">PM &amp; Program</text>
 <text x="143.764" y="106.172" size="1.778" layer="94">USB to UART</text>
-<text x="152.4" y="137.16" size="1.778" layer="91">PMS 	Prog
--------	--------
-- 5V	- NC 
-- GND	- GND
-- SET	- NC
-- NC	- Prog RX
-- TX	- NC
-- NC	- Prog TX
-- NC	- DTR
-- NC	- RTS</text>
+<text x="152.4" y="137.16" size="1.778" layer="91">PMS  Prog
+------- --------
+- 5V - NC 
+- GND - GND
+- SET - NC
+- NC - Prog RX
+- TX - NC
+- NC - Prog TX
+- NC - DTR
+- NC - RTS</text>
+<text x="167.132" y="5.334" size="2.54" layer="94">WAirU v2.1</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$3" x="134.62" y="2.54" smashed="yes">
 <attribute name="SHEET" x="243.5352" y="5.3848" size="2.54" layer="94" font="vector" ratio="10"/>
-<attribute name="DRAWING_NAME" x="167.6527" y="5.3848" size="2.54" layer="94" ratio="10"/>
 <attribute name="REV" x="246.0752" y="21.2598" size="3.81" layer="94" ratio="12"/>
 </instance>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -5290,32 +5291,6 @@ Dont use them.</text>
 <label x="17.78" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="VBUS" class="0">
-<segment>
-<wire x1="214.63" y1="85.09" x2="217.17" y2="85.09" width="0.1524" layer="91"/>
-<pinref part="L3" gate="L" pin="2"/>
-<label x="217.17" y="85.09" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$8" gate="G$1" pin="5.0V"/>
-<wire x1="116.84" y1="162.56" x2="116.84" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="MOLEX-53261-0871" gate="-8" pin="S"/>
-<wire x1="116.84" y1="154.94" x2="134.62" y2="154.94" width="0.1524" layer="91"/>
-<label x="121.92" y="154.94" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$58" gate="G$1" pin="5.0V"/>
-<pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="86.36" y1="162.56" x2="86.36" y2="161.29" width="0.1524" layer="91"/>
-<label x="78.74" y="160.02" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$56" gate="G$1" pin="5.0V"/>
-<pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="93.98" y1="162.56" x2="93.98" y2="161.29" width="0.1524" layer="91"/>
-<label x="101.6" y="162.56" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
 <net name="VBUS_RAW" class="0">
 <segment>
 <pinref part="USB1" gate="G$1" pin="VBUS"/>
@@ -5349,6 +5324,41 @@ Dont use them.</text>
 <label x="17.78" y="68.58" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="EN_PAM2401" class="0">
+<segment>
+<pinref part="U7" gate="G$1" pin="IO2/A2_2"/>
+<wire x1="78.74" y1="114.3" x2="93.98" y2="114.3" width="0.1524" layer="91"/>
+<label x="81.28" y="114.3" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VBUS" class="0">
+<segment>
+<wire x1="214.63" y1="85.09" x2="217.17" y2="85.09" width="0.1524" layer="91"/>
+<pinref part="L3" gate="L" pin="2"/>
+<label x="217.17" y="85.09" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="5.0V" class="0">
+<segment>
+<pinref part="U$58" gate="G$1" pin="5.0V"/>
+<pinref part="C2" gate="G$1" pin="2"/>
+<wire x1="86.36" y1="162.56" x2="86.36" y2="161.29" width="0.1524" layer="91"/>
+<label x="81.28" y="161.29" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$56" gate="G$1" pin="5.0V"/>
+<pinref part="C3" gate="G$1" pin="2"/>
+<wire x1="93.98" y1="162.56" x2="93.98" y2="161.29" width="0.1524" layer="91"/>
+<label x="99.06" y="162.56" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="U$8" gate="G$1" pin="5.0V"/>
+<wire x1="116.84" y1="162.56" x2="116.84" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="MOLEX-53261-0871" gate="-8" pin="S"/>
+<wire x1="116.84" y1="154.94" x2="134.62" y2="154.94" width="0.1524" layer="91"/>
+<label x="121.92" y="154.94" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -5361,6 +5371,9 @@ Dont use them.</text>
 <text x="7.62" y="170.18" size="1.778" layer="94">Power Management</text>
 <text x="105.41" y="127" size="1.778" layer="91" align="center-left">Diode needed when 5V 
 connected through programmer</text>
+<text x="35.56" y="146.05" size="1.016" layer="91" align="bottom-right">Pulldown connected to 
+VBUS on PAM2305 circuit, 
+so not needed here</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -5519,9 +5532,9 @@ connected through programmer</text>
 <instance part="U$30" gate="G$1" x="96.52" y="158.75" smashed="yes">
 <attribute name="VALUE" x="94.996" y="159.766" size="1.27" layer="96"/>
 </instance>
-<instance part="D1" gate="G$1" x="104.14" y="137.16" smashed="yes">
-<attribute name="NAME" x="100.33" y="139.7" size="1.27" layer="95" ratio="10"/>
-<attribute name="VALUE" x="100.33" y="133.35" size="1.27" layer="96" ratio="10"/>
+<instance part="D1" gate="G$1" x="104.14" y="149.86" smashed="yes">
+<attribute name="NAME" x="100.33" y="152.4" size="1.27" layer="95" ratio="10"/>
+<attribute name="VALUE" x="100.33" y="146.05" size="1.27" layer="96" ratio="10"/>
 </instance>
 <instance part="D2" gate="G$1" x="25.4" y="90.17" smashed="yes">
 <attribute name="NAME" x="21.59" y="92.71" size="1.27" layer="95" ratio="10"/>
@@ -5564,6 +5577,10 @@ connected through programmer</text>
 <attribute name="VALUE" x="45.72" y="114.3" size="1.27" layer="96" ratio="10" rot="R90"/>
 </instance>
 <instance part="U$4" gate="G$1" x="43.18" y="130.81" smashed="yes"/>
+<instance part="D3_CUT" gate="G$1" x="104.14" y="137.16" smashed="yes">
+<attribute name="NAME" x="100.33" y="139.7" size="1.27" layer="95" ratio="10"/>
+<attribute name="VALUE" x="100.33" y="133.35" size="1.27" layer="96" ratio="10"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -5718,69 +5735,38 @@ connected through programmer</text>
 <junction x="30.48" y="104.14"/>
 </segment>
 <segment>
+<pinref part="U$46" gate="G$1" pin="VBAT"/>
+<wire x1="211.836" y1="113.03" x2="211.836" y2="110.49" width="0.1524" layer="91"/>
+<pinref part="U2" gate="G$1" pin="FB"/>
+<wire x1="199.39" y1="110.49" x2="208.28" y2="110.49" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="BAT"/>
+<wire x1="208.28" y1="110.49" x2="211.836" y2="110.49" width="0.1524" layer="91"/>
 <wire x1="199.39" y1="102.87" x2="208.28" y2="102.87" width="0.1524" layer="91"/>
 <pinref part="C11" gate="G$1" pin="2"/>
 <junction x="208.28" y="102.87"/>
-<pinref part="U2" gate="G$1" pin="FB"/>
-<wire x1="208.28" y1="102.87" x2="211.836" y2="102.87" width="0.1524" layer="91"/>
-<wire x1="199.39" y1="110.49" x2="211.836" y2="110.49" width="0.1524" layer="91"/>
-<wire x1="211.836" y1="110.49" x2="211.836" y2="102.87" width="0.1524" layer="91"/>
-<pinref part="U$46" gate="G$1" pin="VBAT"/>
-<wire x1="211.836" y1="113.03" x2="211.836" y2="110.49" width="0.1524" layer="91"/>
-<junction x="211.836" y="110.49"/>
 <pinref part="VBAT" gate="G$1" pin="1"/>
-<wire x1="218.44" y1="102.87" x2="211.836" y2="102.87" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="102.87" x2="208.28" y2="102.87" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="102.87" x2="208.28" y2="110.49" width="0.1524" layer="91"/>
+<junction x="208.28" y="110.49"/>
+<label x="212.09" y="102.87" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$7" gate="G$1" pin="VBAT"/>
 <pinref part="R13" gate="G$1" pin="2"/>
 <wire x1="162.56" y1="154.94" x2="162.56" y2="153.67" width="0.1524" layer="91"/>
 </segment>
-</net>
-<net name="VBUS" class="0">
 <segment>
-<wire x1="20.32" y1="102.87" x2="20.32" y2="100.33" width="0.1524" layer="91"/>
-<pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="20.32" y1="100.33" x2="20.32" y2="90.17" width="0.1524" layer="91"/>
-<pinref part="U$12" gate="G$1" pin="VBUS"/>
-<wire x1="20.32" y1="90.17" x2="20.32" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="102.87" x2="20.32" y2="105.41" width="0.1524" layer="91"/>
-<pinref part="5.0V1" gate="G$1" pin="TP"/>
-<junction x="20.32" y="102.87"/>
-<pinref part="Q4" gate="G$1" pin="G"/>
-<wire x1="20.32" y1="100.33" x2="25.4" y2="100.33" width="0.1524" layer="91"/>
-<junction x="20.32" y="100.33"/>
-<pinref part="D2" gate="G$1" pin="+"/>
-<wire x1="21.59" y1="90.17" x2="20.32" y2="90.17" width="0.1524" layer="91"/>
-<junction x="20.32" y="90.17"/>
-</segment>
-<segment>
-<pinref part="U$30" gate="G$1" pin="VBUS"/>
-<wire x1="96.52" y1="152.4" x2="96.52" y2="156.21" width="0.1524" layer="91"/>
-<wire x1="97.79" y1="152.4" x2="96.52" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G$1" pin="-"/>
-<wire x1="107.95" y1="137.16" x2="107.95" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="107.95" y1="152.4" x2="106.68" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="U$29" gate="G$1" pin="5.0V"/>
-<wire x1="106.68" y1="152.4" x2="105.41" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="107.95" y1="156.21" x2="107.95" y2="152.4" width="0.1524" layer="91"/>
-<junction x="107.95" y="152.4"/>
-<wire x1="97.79" y1="152.4" x2="105.41" y2="152.4" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U$6" gate="G$1" pin="VBUS"/>
-<wire x1="163.83" y1="113.792" x2="163.83" y2="102.87" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="VIN"/>
-<wire x1="176.53" y1="102.87" x2="163.83" y2="102.87" width="0.1524" layer="91"/>
-<wire x1="163.83" y1="102.108" x2="163.83" y2="102.87" width="0.1524" layer="91"/>
-<junction x="163.83" y="102.87"/>
-<pinref part="C10" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<pinref part="Q1" gate="G$1" pin="G"/>
-<pinref part="U$15" gate="G$1" pin="VBUS"/>
-<wire x1="35.56" y1="133.35" x2="35.56" y2="151.13" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="151.13" x2="43.18" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="U6" gate="G$1" pin="VIN"/>
+<wire x1="43.18" y1="147.32" x2="43.18" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="139.7" x2="43.18" y2="139.7" width="0.1524" layer="91"/>
+<junction x="43.18" y="139.7"/>
+<pinref part="C5" gate="G$1" pin="2"/>
+<pinref part="U$19" gate="G$1" pin="VBAT"/>
+<pinref part="L1" gate="L" pin="1"/>
+<wire x1="43.18" y1="147.32" x2="58.42" y2="147.32" width="0.1524" layer="91"/>
+<junction x="43.18" y="147.32"/>
+<label x="45.72" y="147.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -5853,25 +5839,6 @@ connected through programmer</text>
 <junction x="30.48" y="90.17"/>
 </segment>
 </net>
-<net name="N$4" class="0">
-<segment>
-<wire x1="93.98" y1="137.16" x2="99.06" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="C7" gate="G$1" pin="2"/>
-<wire x1="99.06" y1="135.89" x2="99.06" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="135.89" x2="93.98" y2="137.16" width="0.1524" layer="91"/>
-<junction x="93.98" y="137.16"/>
-<pinref part="U6" gate="G$1" pin="OUT"/>
-<wire x1="78.74" y1="137.16" x2="82.55" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G$1" pin="+"/>
-<wire x1="82.55" y1="137.16" x2="93.98" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="100.33" y1="137.16" x2="99.06" y2="137.16" width="0.1524" layer="91"/>
-<junction x="99.06" y="137.16"/>
-<pinref part="R16" gate="G$1" pin="1"/>
-<wire x1="82.55" y1="134.62" x2="82.55" y2="137.16" width="0.1524" layer="91"/>
-<junction x="82.55" y="137.16"/>
-<pinref part="C6" gate="G$1" pin="2"/>
-</segment>
-</net>
 <net name="GP_LED" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="BLUE"/>
@@ -5927,20 +5894,6 @@ connected through programmer</text>
 <pinref part="R11" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="V_IN1" class="0">
-<segment>
-<wire x1="43.18" y1="151.13" x2="43.18" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="U6" gate="G$1" pin="VIN"/>
-<wire x1="43.18" y1="147.32" x2="43.18" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="139.7" x2="43.18" y2="139.7" width="0.1524" layer="91"/>
-<junction x="43.18" y="139.7"/>
-<pinref part="C5" gate="G$1" pin="2"/>
-<pinref part="U$19" gate="G$1" pin="VBAT"/>
-<pinref part="L1" gate="L" pin="1"/>
-<wire x1="43.18" y1="147.32" x2="58.42" y2="147.32" width="0.1524" layer="91"/>
-<junction x="43.18" y="147.32"/>
-</segment>
-</net>
 <net name="N$24" class="0">
 <segment>
 <pinref part="R16" gate="G$1" pin="2"/>
@@ -5973,6 +5926,80 @@ connected through programmer</text>
 <junction x="43.18" y="124.46"/>
 <pinref part="Q1" gate="G$1" pin="D"/>
 <wire x1="30.48" y1="124.46" x2="30.48" y2="125.73" width="0.1524" layer="91"/>
+<label x="39.37" y="125.73" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VBUS" class="0">
+<segment>
+<pinref part="U$30" gate="G$1" pin="VBUS"/>
+<wire x1="96.52" y1="149.86" x2="96.52" y2="156.21" width="0.1524" layer="91"/>
+<wire x1="100.33" y1="149.86" x2="96.52" y2="149.86" width="0.1524" layer="91"/>
+<label x="88.9" y="152.4" size="1.778" layer="95"/>
+<pinref part="D1" gate="G$1" pin="+"/>
+</segment>
+<segment>
+<wire x1="20.32" y1="102.87" x2="20.32" y2="100.33" width="0.1524" layer="91"/>
+<pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="20.32" y1="100.33" x2="20.32" y2="90.17" width="0.1524" layer="91"/>
+<pinref part="U$12" gate="G$1" pin="VBUS"/>
+<wire x1="20.32" y1="90.17" x2="20.32" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="102.87" x2="20.32" y2="105.41" width="0.1524" layer="91"/>
+<pinref part="5.0V1" gate="G$1" pin="TP"/>
+<junction x="20.32" y="102.87"/>
+<pinref part="Q4" gate="G$1" pin="G"/>
+<wire x1="20.32" y1="100.33" x2="25.4" y2="100.33" width="0.1524" layer="91"/>
+<junction x="20.32" y="100.33"/>
+<pinref part="D2" gate="G$1" pin="+"/>
+<wire x1="21.59" y1="90.17" x2="20.32" y2="90.17" width="0.1524" layer="91"/>
+<junction x="20.32" y="90.17"/>
+<label x="20.32" y="96.52" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="Q1" gate="G$1" pin="G"/>
+<pinref part="U$15" gate="G$1" pin="VBUS"/>
+<wire x1="35.56" y1="133.35" x2="35.56" y2="151.13" width="0.1524" layer="91"/>
+<label x="35.56" y="142.24" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$6" gate="G$1" pin="VBUS"/>
+<wire x1="163.83" y1="113.792" x2="163.83" y2="102.87" width="0.1524" layer="91"/>
+<pinref part="U2" gate="G$1" pin="VIN"/>
+<wire x1="176.53" y1="102.87" x2="163.83" y2="102.87" width="0.1524" layer="91"/>
+<wire x1="163.83" y1="102.108" x2="163.83" y2="102.87" width="0.1524" layer="91"/>
+<junction x="163.83" y="102.87"/>
+<pinref part="C10" gate="G$1" pin="2"/>
+<label x="165.1" y="107.95" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="5.0V" class="0">
+<segment>
+<pinref part="D3_CUT" gate="G$1" pin="-"/>
+<pinref part="U$29" gate="G$1" pin="5.0V"/>
+<pinref part="D1" gate="G$1" pin="-"/>
+<wire x1="107.95" y1="149.86" x2="107.95" y2="156.21" width="0.1524" layer="91"/>
+<wire x1="107.95" y1="149.86" x2="107.95" y2="137.16" width="0.1524" layer="91"/>
+<junction x="107.95" y="149.86"/>
+<label x="109.22" y="148.59" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PAM2401_OUT" class="0">
+<segment>
+<wire x1="93.98" y1="137.16" x2="99.06" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="C7" gate="G$1" pin="2"/>
+<wire x1="99.06" y1="135.89" x2="99.06" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="135.89" x2="93.98" y2="137.16" width="0.1524" layer="91"/>
+<junction x="93.98" y="137.16"/>
+<pinref part="U6" gate="G$1" pin="OUT"/>
+<wire x1="78.74" y1="137.16" x2="82.55" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="82.55" y1="137.16" x2="93.98" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="R16" gate="G$1" pin="1"/>
+<wire x1="82.55" y1="134.62" x2="82.55" y2="137.16" width="0.1524" layer="91"/>
+<junction x="82.55" y="137.16"/>
+<pinref part="C6" gate="G$1" pin="2"/>
+<pinref part="D3_CUT" gate="G$1" pin="+"/>
+<wire x1="100.33" y1="137.16" x2="99.06" y2="137.16" width="0.1524" layer="91"/>
+<junction x="99.06" y="137.16"/>
+<label x="81.28" y="137.16" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
