@@ -5973,14 +5973,17 @@ so not needed here</text>
 </net>
 <net name="5.0V" class="0">
 <segment>
+<pinref part="D3" gate="G$1" pin="-"/>
 <pinref part="U$29" gate="G$1" pin="5.0V"/>
 <pinref part="D1" gate="G$1" pin="-"/>
 <wire x1="107.95" y1="149.86" x2="107.95" y2="156.21" width="0.1524" layer="91"/>
-<wire x1="107.95" y1="149.86" x2="107.95" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="107.95" y1="149.86" x2="107.95" y2="137.16" width="0.1524" layer="91"/>
 <junction x="107.95" y="149.86"/>
 <label x="109.22" y="148.59" size="1.778" layer="95"/>
-<pinref part="D3" gate="G$1" pin="-"/>
-<wire x1="107.95" y1="142.24" x2="107.95" y2="137.16" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PAM2401_OUT" class="0">
+<segment>
 <wire x1="93.98" y1="137.16" x2="99.06" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="2"/>
 <wire x1="99.06" y1="135.89" x2="99.06" y2="137.16" width="0.1524" layer="91"/>
@@ -5996,9 +5999,7 @@ so not needed here</text>
 <pinref part="D3" gate="G$1" pin="+"/>
 <wire x1="100.33" y1="137.16" x2="99.06" y2="137.16" width="0.1524" layer="91"/>
 <junction x="99.06" y="137.16"/>
-<wire x1="99.06" y1="137.16" x2="99.06" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="142.24" x2="107.95" y2="142.24" width="0.1524" layer="91"/>
-<junction x="107.95" y="142.24"/>
+<label x="81.28" y="137.16" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

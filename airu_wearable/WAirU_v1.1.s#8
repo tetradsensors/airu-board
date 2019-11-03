@@ -5291,27 +5291,6 @@ Dont use them.</text>
 <label x="17.78" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D3_JUMP" class="0">
-<segment>
-<pinref part="U$8" gate="G$1" pin="5.0V"/>
-<wire x1="116.84" y1="162.56" x2="116.84" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="MOLEX-53261-0871" gate="-8" pin="S"/>
-<wire x1="116.84" y1="154.94" x2="134.62" y2="154.94" width="0.1524" layer="91"/>
-<label x="121.92" y="154.94" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$58" gate="G$1" pin="5.0V"/>
-<pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="86.36" y1="162.56" x2="86.36" y2="161.29" width="0.1524" layer="91"/>
-<label x="82.55" y="161.29" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$56" gate="G$1" pin="5.0V"/>
-<pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="93.98" y1="162.56" x2="93.98" y2="161.29" width="0.1524" layer="91"/>
-<label x="97.79" y="162.56" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
 <net name="VBUS_RAW" class="0">
 <segment>
 <pinref part="USB1" gate="G$1" pin="VBUS"/>
@@ -5357,6 +5336,27 @@ Dont use them.</text>
 <wire x1="214.63" y1="85.09" x2="217.17" y2="85.09" width="0.1524" layer="91"/>
 <pinref part="L3" gate="L" pin="2"/>
 <label x="217.17" y="85.09" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="5.0V" class="0">
+<segment>
+<pinref part="U$58" gate="G$1" pin="5.0V"/>
+<pinref part="C2" gate="G$1" pin="2"/>
+<wire x1="86.36" y1="162.56" x2="86.36" y2="161.29" width="0.1524" layer="91"/>
+<label x="81.28" y="161.29" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$56" gate="G$1" pin="5.0V"/>
+<pinref part="C3" gate="G$1" pin="2"/>
+<wire x1="93.98" y1="162.56" x2="93.98" y2="161.29" width="0.1524" layer="91"/>
+<label x="99.06" y="162.56" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="U$8" gate="G$1" pin="5.0V"/>
+<wire x1="116.84" y1="162.56" x2="116.84" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="MOLEX-53261-0871" gate="-8" pin="S"/>
+<wire x1="116.84" y1="154.94" x2="134.62" y2="154.94" width="0.1524" layer="91"/>
+<label x="121.92" y="154.94" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

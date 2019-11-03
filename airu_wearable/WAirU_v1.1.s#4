@@ -5363,8 +5363,8 @@ Dont use them.</text>
 </sheet>
 <sheet>
 <plain>
-<text x="167.64" y="22.86" size="2.54" layer="94">WAirU v2.0</text>
-<text x="167.64" y="12.7" size="2.54" layer="94">October 22, 2019</text>
+<text x="167.64" y="22.86" size="2.54" layer="94">WAirU v2.1</text>
+<text x="167.64" y="12.7" size="2.54" layer="94">October 30, 2019</text>
 <text x="155.956" y="32.766" size="2.286" layer="94">Laboratory for Nano-Integrated Systems, University of Utah</text>
 <text x="92.456" y="138.684" size="1.778" layer="91">CFF</text>
 <wire x1="256.54" y1="106.68" x2="256.54" y2="104.14" width="0.1524" layer="94" style="shortdash"/>
@@ -5374,13 +5374,13 @@ connected through programmer</text>
 <text x="35.56" y="146.05" size="1.016" layer="91" align="bottom-right">Pulldown connected to 
 VBUS on PAM2305 circuit, 
 so not needed here</text>
+<text x="167.64" y="5.588" size="2.54" layer="94">WAirU v2.1</text>
+<text x="246.38" y="21.59" size="3.81" layer="94">2.1</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes"/>
 <instance part="FRAME3" gate="G$3" x="134.62" y="2.54" smashed="yes">
 <attribute name="SHEET" x="243.5352" y="5.3848" size="2.54" layer="94" font="vector" ratio="10"/>
-<attribute name="DRAWING_NAME" x="167.6527" y="5.3848" size="2.54" layer="94" ratio="10"/>
-<attribute name="REV" x="246.0752" y="21.2598" size="3.81" layer="94" ratio="12"/>
 </instance>
 <instance part="U$38" gate="G$1" x="120.142" y="96.52" smashed="yes">
 <attribute name="VALUE" x="118.618" y="97.536" size="1.27" layer="96"/>
