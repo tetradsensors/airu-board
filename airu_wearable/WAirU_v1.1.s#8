@@ -4860,7 +4860,7 @@ part number 2062-2P from STA</description>
 <part name="Q1" library="BSS84" deviceset="BSS84" device=""/>
 <part name="R14" library="Seeed-Resistor" deviceset="SMD-RES-100K-5%-1/10W(0603)" device="" value="100K 1/10W"/>
 <part name="U$4" library="Power or GND " deviceset="GND_POWER" device=""/>
-<part name="D3" library="Seeed-OPL-Diode" deviceset="SMD-DIODE-SCHOTTKY-20V-1A(SOD-123)" device="" value="20V-1A"/>
+<part name="D3_CUT" library="Seeed-OPL-Diode" deviceset="SMD-DIODE-SCHOTTKY-20V-1A(SOD-123)" device="" value="20V-1A"/>
 </parts>
 <sheets>
 <sheet>
@@ -5577,7 +5577,7 @@ so not needed here</text>
 <attribute name="VALUE" x="45.72" y="114.3" size="1.27" layer="96" ratio="10" rot="R90"/>
 </instance>
 <instance part="U$4" gate="G$1" x="43.18" y="130.81" smashed="yes"/>
-<instance part="D3" gate="G$1" x="104.14" y="137.16" smashed="yes">
+<instance part="D3_CUT" gate="G$1" x="104.14" y="137.16" smashed="yes">
 <attribute name="NAME" x="100.33" y="139.7" size="1.27" layer="95" ratio="10"/>
 <attribute name="VALUE" x="100.33" y="133.35" size="1.27" layer="96" ratio="10"/>
 </instance>
@@ -5973,7 +5973,7 @@ so not needed here</text>
 </net>
 <net name="5.0V" class="0">
 <segment>
-<pinref part="D3" gate="G$1" pin="-"/>
+<pinref part="D3_CUT" gate="G$1" pin="-"/>
 <pinref part="U$29" gate="G$1" pin="5.0V"/>
 <pinref part="D1" gate="G$1" pin="-"/>
 <wire x1="107.95" y1="149.86" x2="107.95" y2="156.21" width="0.1524" layer="91"/>
@@ -5996,7 +5996,7 @@ so not needed here</text>
 <wire x1="82.55" y1="134.62" x2="82.55" y2="137.16" width="0.1524" layer="91"/>
 <junction x="82.55" y="137.16"/>
 <pinref part="C6" gate="G$1" pin="2"/>
-<pinref part="D3" gate="G$1" pin="+"/>
+<pinref part="D3_CUT" gate="G$1" pin="+"/>
 <wire x1="100.33" y1="137.16" x2="99.06" y2="137.16" width="0.1524" layer="91"/>
 <junction x="99.06" y="137.16"/>
 <label x="81.28" y="137.16" size="1.778" layer="95"/>
