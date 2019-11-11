@@ -12148,68 +12148,6 @@ Source: www.stewartconnector.com .. si-50170.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="AG9900M">
-<packages>
-<package name="AG9900M/MT">
-<smd name="P$1" x="7" y="6" dx="1.25" dy="4" layer="1"/>
-<smd name="P$2" x="-6.57" y="6" dx="1.25" dy="4" layer="1"/>
-<smd name="P$3" x="-9.11" y="6" dx="1.25" dy="4" layer="1"/>
-<smd name="P$4" x="9.54" y="6" dx="1.25" dy="4" layer="1"/>
-<smd name="P$5" x="7" y="-8" dx="1.25" dy="4" layer="1"/>
-<smd name="P$6" x="-6.57" y="-8" dx="1.25" dy="4" layer="1"/>
-<smd name="P$7" x="-9.11" y="-8" dx="1.25" dy="4" layer="1"/>
-<smd name="P$8" x="9.54" y="-8" dx="1.25" dy="4" layer="1"/>
-<wire x1="-11" y1="6" x2="-11" y2="-8" width="0.127" layer="25"/>
-<wire x1="-11" y1="-8" x2="11" y2="-8" width="0.127" layer="25"/>
-<wire x1="11" y1="-8" x2="11" y2="6" width="0.127" layer="25"/>
-<wire x1="11" y1="6" x2="-11" y2="6" width="0.127" layer="25"/>
-<text x="-3" y="8" size="1.27" layer="25">&gt;Name</text>
-<text x="-4" y="-11" size="1.27" layer="27">&gt;Value</text>
-</package>
-</packages>
-<symbols>
-<symbol name="AG9900M">
-<wire x1="-15.24" y1="15.24" x2="-15.24" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="-15.24" y1="-17.78" x2="12.7" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-17.78" x2="12.7" y2="15.24" width="0.254" layer="94"/>
-<wire x1="12.7" y1="15.24" x2="-15.24" y2="15.24" width="0.254" layer="94"/>
-<pin name="+VDC@1" x="-20.32" y="10.16" length="middle"/>
-<pin name="+VDC@2" x="-20.32" y="5.08" length="middle"/>
-<pin name="ADJ" x="-20.32" y="-12.7" length="middle"/>
-<pin name="-VDC" x="-20.32" y="-7.62" length="middle"/>
-<pin name="VIN-@8" x="17.78" y="-12.7" length="middle" rot="R180"/>
-<pin name="VIN-@7" x="17.78" y="-7.62" length="middle" rot="R180"/>
-<pin name="VIN+@6" x="17.78" y="5.08" length="middle" rot="R180"/>
-<pin name="VIN+@5" x="17.78" y="10.16" length="middle" rot="R180"/>
-<text x="-5.08" y="17.78" size="1.27" layer="95">&gt;Name</text>
-<text x="-5.08" y="-20.32" size="1.27" layer="96">&gt;Value</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="AG9900M">
-<gates>
-<gate name="G$1" symbol="AG9900M" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="AG9900M/MT">
-<connects>
-<connect gate="G$1" pin="+VDC@1" pad="P$7"/>
-<connect gate="G$1" pin="+VDC@2" pad="P$6"/>
-<connect gate="G$1" pin="-VDC" pad="P$5"/>
-<connect gate="G$1" pin="ADJ" pad="P$8"/>
-<connect gate="G$1" pin="VIN+@5" pad="P$2"/>
-<connect gate="G$1" pin="VIN+@6" pad="P$3"/>
-<connect gate="G$1" pin="VIN-@7" pad="P$4"/>
-<connect gate="G$1" pin="VIN-@8" pad="P$1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="frames" urn="urn:adsk.eagle:library:229">
 <description>&lt;b&gt;Frames for Sheet and Layout&lt;/b&gt;</description>
 <packages>
@@ -12326,6 +12264,95 @@ Source: www.stewartconnector.com .. si-50170.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="Ag9900M">
+<description>&lt;Ultra Miniature PoE Module&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="AG9900M">
+<description>&lt;b&gt;Ag9900M&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-9.375" y="-7" dx="4" dy="1.25" layer="1" rot="R90"/>
+<smd name="2" x="-6.835" y="-7" dx="4" dy="1.25" layer="1" rot="R90"/>
+<smd name="3" x="6.835" y="-7" dx="4" dy="1.25" layer="1" rot="R90"/>
+<smd name="4" x="9.375" y="-7" dx="4" dy="1.25" layer="1" rot="R90"/>
+<smd name="5" x="9.375" y="7" dx="4" dy="1.25" layer="1" rot="R90"/>
+<smd name="6" x="6.835" y="7" dx="4" dy="1.25" layer="1" rot="R90"/>
+<smd name="7" x="-6.835" y="7" dx="4" dy="1.25" layer="1" rot="R90"/>
+<smd name="8" x="-9.375" y="7" dx="4" dy="1.25" layer="1" rot="R90"/>
+<text x="0" y="-0.25" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="-0.25" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-10.595" y1="7" x2="10.595" y2="7" width="0.2" layer="51"/>
+<wire x1="10.595" y1="7" x2="10.595" y2="-7" width="0.2" layer="51"/>
+<wire x1="10.595" y1="-7" x2="-10.595" y2="-7" width="0.2" layer="51"/>
+<wire x1="-10.595" y1="-7" x2="-10.595" y2="7" width="0.2" layer="51"/>
+<wire x1="-11.595" y1="10" x2="11.595" y2="10" width="0.1" layer="51"/>
+<wire x1="11.595" y1="10" x2="11.595" y2="-10.5" width="0.1" layer="51"/>
+<wire x1="11.595" y1="-10.5" x2="-11.595" y2="-10.5" width="0.1" layer="51"/>
+<wire x1="-11.595" y1="-10.5" x2="-11.595" y2="10" width="0.1" layer="51"/>
+<wire x1="-10.595" y1="7" x2="-10.595" y2="-7" width="0.1" layer="21"/>
+<wire x1="10.595" y1="7" x2="10.595" y2="-7" width="0.1" layer="21"/>
+<wire x1="-6" y1="7" x2="6" y2="7" width="0.1" layer="21"/>
+<wire x1="-6" y1="-7" x2="6" y2="-7" width="0.1" layer="21"/>
+<wire x1="-9.6" y1="-9.4" x2="-9.6" y2="-9.4" width="0.2" layer="21"/>
+<wire x1="-9.6" y1="-9.4" x2="-9.4" y2="-9.4" width="0.2" layer="21" curve="-180"/>
+<wire x1="-9.4" y1="-9.4" x2="-9.4" y2="-9.4" width="0.2" layer="21"/>
+<wire x1="-9.4" y1="-9.4" x2="-9.6" y2="-9.4" width="0.2" layer="21" curve="-180"/>
+</package>
+</packages>
+<symbols>
+<symbol name="AG9900M">
+<wire x1="5.08" y1="2.54" x2="27.94" y2="2.54" width="0.254" layer="94"/>
+<wire x1="27.94" y1="-10.16" x2="27.94" y2="2.54" width="0.254" layer="94"/>
+<wire x1="27.94" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<text x="29.21" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="29.21" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="+VDC_1" x="0" y="0" length="middle"/>
+<pin name="+VDC_2" x="0" y="-2.54" length="middle"/>
+<pin name="-VDC" x="0" y="-5.08" length="middle"/>
+<pin name="ADJ" x="0" y="-7.62" length="middle"/>
+<pin name="VIN+_1" x="33.02" y="0" length="middle" rot="R180"/>
+<pin name="VIN+_2" x="33.02" y="-2.54" length="middle" rot="R180"/>
+<pin name="VIN-_1" x="33.02" y="-5.08" length="middle" rot="R180"/>
+<pin name="VIN-_2" x="33.02" y="-7.62" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="AG9900M" prefix="U">
+<description>&lt;b&gt;Ultra Miniature PoE Module&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.silvertel.com/images/datasheets/Ag9900M-datasheet-ultra-miniature-isolated-Power-over-Ethernet-POE-module.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="AG9900M" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="AG9900M">
+<connects>
+<connect gate="G$1" pin="+VDC_1" pad="1"/>
+<connect gate="G$1" pin="+VDC_2" pad="2"/>
+<connect gate="G$1" pin="-VDC" pad="3"/>
+<connect gate="G$1" pin="ADJ" pad="4"/>
+<connect gate="G$1" pin="VIN+_1" pad="5"/>
+<connect gate="G$1" pin="VIN+_2" pad="6"/>
+<connect gate="G$1" pin="VIN-_1" pad="7"/>
+<connect gate="G$1" pin="VIN-_2" pad="8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Ultra Miniature PoE Module" constant="no"/>
+<attribute name="HEIGHT" value="13mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Silvertel" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="Ag9900M" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" constant="no"/>
+<attribute name="RS_PART_NUMBER" value="" constant="no"/>
+<attribute name="RS_PRICE-STOCK" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -12527,7 +12554,6 @@ Source: www.stewartconnector.com .. si-50170.pdf</description>
 <part name="R45" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:8118489/1" value="49.9"/>
 <part name="U10" library="ENC28J60QFN" deviceset="ENC28J60" device="ENC28J60-I/SS0P" package3d_urn="urn:adsk.eagle:package:11158957/1"/>
 <part name="J8" library="SI-52003-F" deviceset="SI-52003-F" device=""/>
-<part name="U13" library="AG9900M" deviceset="AG9900M" device=""/>
 <part name="FRAME4" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_B_L" device=""/>
 <part name="U$29" library="Power or GND " deviceset="GND_POWER" device=""/>
 <part name="U$62" library="Power or GND " deviceset="GND_POWER" device=""/>
@@ -12558,6 +12584,7 @@ Source: www.stewartconnector.com .. si-50170.pdf</description>
 <part name="L4" library="Seeed-Inductor" deviceset="SMD-FERRITE-BEAD-330R-1500MA(0805)" device="'0805'" value="330R-1500MA"/>
 <part name="U$22" library="25MHZ_seeed" deviceset="SPXO25MHZ7050-4P" device="" package3d_urn="urn:adsk.eagle:package:14869334/1"/>
 <part name="C36" library="Seeed-Capacitor" deviceset="CERAMIC-33NF-50V-10%-X7R(0603)" device="" value="33nf"/>
+<part name="U13" library="Ag9900M" deviceset="AG9900M" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12940,10 +12967,6 @@ as possible. </text>
 <attribute name="NAME" x="248.915709375" y="54.6221" size="1.779" layer="95"/>
 <attribute name="VALUE" x="259.065340625" y="55.8458" size="1.78141875" layer="96"/>
 </instance>
-<instance part="U13" gate="G$1" x="43.18" y="38.1" smashed="yes" rot="R90">
-<attribute name="NAME" x="25.4" y="33.02" size="1.27" layer="95" rot="R90"/>
-<attribute name="VALUE" x="63.5" y="33.02" size="1.27" layer="96" rot="R90"/>
-</instance>
 <instance part="FRAME4" gate="G$1" x="0" y="0" smashed="yes"/>
 <instance part="U$29" gate="G$1" x="299.72" y="68.58" smashed="yes" rot="R270"/>
 <instance part="U$62" gate="G$1" x="218.44" y="20.32" smashed="yes"/>
@@ -13166,7 +13189,7 @@ as possible. </text>
 <instance part="U$88" gate="G$1" x="160.02" y="127" smashed="yes">
 <attribute name="VALUE" x="158.496" y="128.016" size="1.27" layer="96"/>
 </instance>
-<instance part="U$66" gate="G$1" x="50.8" y="15.24" smashed="yes"/>
+<instance part="U$66" gate="G$1" x="68.58" y="45.72" smashed="yes" rot="R180"/>
 <instance part="U$67" gate="G$1" x="168.91" y="45.72" smashed="yes" rot="R90"/>
 <instance part="U$68" gate="G$1" x="168.91" y="58.42" smashed="yes" rot="R90"/>
 <instance part="U$69" gate="G$1" x="168.91" y="27.94" smashed="yes" rot="R90"/>
@@ -13187,8 +13210,8 @@ as possible. </text>
 <instance part="U$93" gate="G$1" x="104.14" y="73.66" smashed="yes" rot="R90">
 <attribute name="VALUE" x="103.124" y="72.136" size="1.27" layer="96" rot="R90"/>
 </instance>
-<instance part="U$94" gate="G$1" x="35.56" y="10.16" smashed="yes" rot="R180">
-<attribute name="VALUE" x="37.084" y="9.144" size="1.27" layer="96" rot="R180"/>
+<instance part="U$94" gate="G$1" x="68.58" y="30.48" smashed="yes" rot="R180">
+<attribute name="VALUE" x="70.104" y="29.464" size="1.27" layer="96" rot="R180"/>
 </instance>
 <instance part="U$1" gate="G$1" x="218.44" y="78.74" smashed="yes">
 <attribute name="VALUE" x="216.916" y="79.756" size="1.27" layer="96"/>
@@ -13228,6 +13251,10 @@ as possible. </text>
 <instance part="C36" gate="G$1" x="322.58" y="46.99" smashed="yes" rot="R180">
 <attribute name="NAME" x="326.39" y="45.72" size="1.27" layer="95" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="326.39" y="49.53" size="1.27" layer="96" ratio="10" rot="R180"/>
+</instance>
+<instance part="U13" gate="G$1" x="63.5" y="35.56" smashed="yes" rot="R180">
+<attribute name="NAME" x="34.29" y="27.94" size="1.778" layer="95" rot="R180" align="center-left"/>
+<attribute name="VALUE" x="34.29" y="30.48" size="1.778" layer="96" rot="R180" align="center-left"/>
 </instance>
 </instances>
 <busses>
@@ -13436,11 +13463,6 @@ as possible. </text>
 <pinref part="C35" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="U13" gate="G$1" pin="-VDC"/>
-<wire x1="50.8" y1="17.78" x2="50.8" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="U$66" gate="G$1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="J8" gate="G$1" pin="S1"/>
 <wire x1="261.62" y1="15.24" x2="261.62" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="261.62" y1="12.7" x2="261.62" y2="10.16" width="0.1524" layer="91"/>
@@ -13631,6 +13653,12 @@ as possible. </text>
 <pinref part="U$65" gate="G$1" pin="GND"/>
 <pinref part="C33" gate="G$1" pin="2"/>
 <wire x1="95.25" y1="33.02" x2="100.33" y2="33.02" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U13" gate="G$1" pin="-VDC"/>
+<pinref part="U$66" gate="G$1" pin="GND"/>
+<wire x1="63.5" y1="40.64" x2="68.58" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="40.64" x2="68.58" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -14126,15 +14154,14 @@ as possible. </text>
 <pinref part="U$31" gate="G$1" pin="5.0V"/>
 </segment>
 <segment>
-<pinref part="U13" gate="G$1" pin="+VDC@1"/>
-<wire x1="33.02" y1="17.78" x2="33.02" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="U13" gate="G$1" pin="+VDC_2"/>
 <pinref part="U$94" gate="G$1" pin="5.0V"/>
-<wire x1="33.02" y1="15.24" x2="35.56" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="15.24" x2="35.56" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="U13" gate="G$1" pin="+VDC@2"/>
-<wire x1="38.1" y1="15.24" x2="38.1" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="15.24" x2="35.56" y2="15.24" width="0.1524" layer="91"/>
-<junction x="35.56" y="15.24"/>
+<wire x1="63.5" y1="38.1" x2="68.58" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="38.1" x2="68.58" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="U13" gate="G$1" pin="+VDC_1"/>
+<wire x1="68.58" y1="35.56" x2="68.58" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="35.56" x2="68.58" y2="35.56" width="0.1524" layer="91"/>
+<junction x="68.58" y="35.56"/>
 </segment>
 </net>
 <net name="VBUS" class="0">
@@ -14388,22 +14415,20 @@ as possible. </text>
 <wire x1="38.1" y1="60.96" x2="25.4" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="60.96" x2="63.5" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="D11" gate="G$1" pin="A"/>
-<wire x1="63.5" y1="60.96" x2="63.5" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="U13" gate="G$1" pin="VIN-@7"/>
-<wire x1="50.8" y1="55.88" x2="50.8" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="58.42" x2="53.34" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="U13" gate="G$1" pin="VIN-@8"/>
-<wire x1="53.34" y1="58.42" x2="55.88" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="58.42" x2="55.88" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="58.42" x2="53.34" y2="58.42" width="0.1524" layer="91"/>
-<junction x="53.34" y="58.42"/>
 <wire x1="38.1" y1="60.96" x2="38.1" y2="68.58" width="0.1524" layer="91"/>
 <junction x="38.1" y="60.96"/>
 <wire x1="50.8" y1="60.96" x2="50.8" y2="68.58" width="0.1524" layer="91"/>
 <junction x="50.8" y="60.96"/>
 <wire x1="63.5" y1="60.96" x2="63.5" y2="68.58" width="0.1524" layer="91"/>
-<junction x="63.5" y="60.96"/>
-<label x="60.96" y="55.88" size="1.778" layer="95"/>
+<label x="25.4" y="45.72" size="1.778" layer="95" rot="R90"/>
+<pinref part="U13" gate="G$1" pin="VIN-_1"/>
+<wire x1="25.4" y1="60.96" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="43.18" x2="25.4" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="40.64" x2="30.48" y2="40.64" width="0.1524" layer="91"/>
+<junction x="25.4" y="60.96"/>
+<pinref part="U13" gate="G$1" pin="VIN-_2"/>
+<wire x1="30.48" y1="43.18" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
+<junction x="25.4" y="43.18"/>
 </segment>
 </net>
 <net name="N$46" class="0">
@@ -14935,22 +14960,20 @@ as possible. </text>
 <wire x1="33.02" y1="63.5" x2="45.72" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="68.58" x2="20.32" y2="63.5" width="0.1524" layer="91"/>
 <junction x="20.32" y="63.5"/>
-<wire x1="20.32" y1="63.5" x2="20.32" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="58.42" x2="35.56" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="U13" gate="G$1" pin="VIN+@5"/>
-<wire x1="33.02" y1="55.88" x2="33.02" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="58.42" x2="35.56" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="U13" gate="G$1" pin="VIN+@6"/>
-<wire x1="38.1" y1="55.88" x2="38.1" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="58.42" x2="35.56" y2="58.42" width="0.1524" layer="91"/>
-<junction x="35.56" y="58.42"/>
 <wire x1="33.02" y1="63.5" x2="20.32" y2="63.5" width="0.1524" layer="91"/>
 <junction x="20.32" y="63.5"/>
 <wire x1="33.02" y1="63.5" x2="33.02" y2="68.58" width="0.1524" layer="91"/>
 <junction x="33.02" y="63.5"/>
 <wire x1="45.72" y1="63.5" x2="58.42" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="63.5" x2="58.42" y2="68.58" width="0.1524" layer="91"/>
-<label x="17.78" y="55.88" size="1.778" layer="95"/>
+<label x="20.32" y="40.64" size="1.778" layer="95" rot="R90"/>
+<wire x1="20.32" y1="63.5" x2="20.32" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="U13" gate="G$1" pin="VIN+_1"/>
+<wire x1="20.32" y1="38.1" x2="20.32" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="35.56" x2="30.48" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="U13" gate="G$1" pin="VIN+_2"/>
+<wire x1="20.32" y1="38.1" x2="30.48" y2="38.1" width="0.1524" layer="91"/>
+<junction x="20.32" y="38.1"/>
 </segment>
 </net>
 </nets>
