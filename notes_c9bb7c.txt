@@ -1,0 +1,4 @@
+Tom's notes for comit #c9bb7cd6abe6a24e0ca0fd971642cba9fe4b7e77
+
+- V+ and V- are swapped on AG9900M. Pin number goes counter-clockwise
+- Rename P$1 - P$8 on AG9900M to 1-8 and match them to the pin names
