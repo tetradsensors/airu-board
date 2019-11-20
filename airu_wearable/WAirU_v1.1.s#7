@@ -4877,7 +4877,7 @@ part number 2062-2P from STA</description>
 <wire x1="43.18" y1="48.26" x2="43.18" y2="5.08" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="142.24" y1="109.22" x2="256.54" y2="109.22" width="0.1524" layer="94" style="shortdash"/>
 <text x="4.826" y="45.466" size="1.778" layer="94">POWER</text>
-<text x="167.64" y="22.86" size="2.54" layer="94">WAirU v2.0</text>
+<text x="167.64" y="22.86" size="2.54" layer="94">WAirU v2.1</text>
 <text x="167.64" y="12.7" size="2.54" layer="94">October 22, 2019</text>
 <text x="96.52" y="93.98" size="1.6764" layer="94">*U2TXD not used for PM SENSOR*</text>
 <text x="95.25" y="128.524" size="1.778" layer="94">GPIOs 34-39 are input only.</text>
@@ -4898,11 +4898,11 @@ Dont use them.</text>
 - NC - Prog TX
 - NC - DTR
 - NC - RTS</text>
+<text x="167.132" y="5.334" size="2.54" layer="94">WAirU v2.1</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$3" x="134.62" y="2.54" smashed="yes">
 <attribute name="SHEET" x="243.5352" y="5.3848" size="2.54" layer="94" font="vector" ratio="10"/>
-<attribute name="DRAWING_NAME" x="167.6527" y="5.3848" size="2.54" layer="94" ratio="10"/>
 <attribute name="REV" x="246.0752" y="21.2598" size="3.81" layer="94" ratio="12"/>
 </instance>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>

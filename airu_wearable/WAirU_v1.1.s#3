@@ -5926,7 +5926,6 @@ so not needed here</text>
 <junction x="43.18" y="124.46"/>
 <pinref part="Q1" gate="G$1" pin="D"/>
 <wire x1="30.48" y1="124.46" x2="30.48" y2="125.73" width="0.1524" layer="91"/>
-<label x="39.37" y="125.73" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VBUS" class="0">
