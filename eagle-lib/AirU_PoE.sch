@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -13930,7 +13930,7 @@ as possible. </text>
 <wire x1="111.76" y1="172.72" x2="109.22" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="175.26" x2="109.22" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="180.34" x2="113.03" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="190.5" x2="109.22" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="195.58" x2="109.22" y2="180.34" width="0.1524" layer="91"/>
 <junction x="109.22" y="180.34"/>
 <label x="106.68" y="190.5" size="1.778" layer="95" rot="R270"/>
 <pinref part="R1" gate="G$1" pin="1"/>
@@ -14903,9 +14903,9 @@ as possible. </text>
 <junction x="185.42" y="236.22"/>
 </segment>
 <segment>
-<wire x1="78.74" y1="208.28" x2="91.44" y2="208.28" width="0.1524" layer="91"/>
 <label x="81.28" y="208.28" size="1.778" layer="95"/>
 <pinref part="U7" gate="G$1" pin="IO12/A2_5"/>
+<wire x1="99.06" y1="208.28" x2="78.74" y2="208.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SD_SPI_CS_IO5" class="0">
