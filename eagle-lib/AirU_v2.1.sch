@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -9463,9 +9463,9 @@ Dont use them.</text>
 </net>
 <net name="PM_RESET" class="0">
 <segment>
-<pinref part="U7" gate="G$1" pin="IO17"/>
-<wire x1="78.74" y1="93.98" x2="91.44" y2="93.98" width="0.1524" layer="91"/>
-<label x="81.28" y="93.98" size="1.778" layer="95"/>
+<pinref part="U7" gate="G$1" pin="IO25/DAC1/A2_8"/>
+<wire x1="78.74" y1="78.74" x2="91.44" y2="78.74" width="0.1524" layer="91"/>
+<label x="78.74" y="78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PM_SET" class="0">
